@@ -6,23 +6,23 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
-  <link rel="shortcut icon" href="assets/images/3-176x176.png" type="image/x-icon">
+  <link rel="shortcut icon" href="../../assets/images/3-176x176.png" type="image/x-icon">
   <meta name="description" content="">
   
   
   <title>CadastroTeacher</title>
-  <link rel="stylesheet" href="assets/web/assets/mobirise-icons2/mobirise2.css">
-  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.min.css">
-  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-reboot.min.css">
-  <link rel="stylesheet" href="assets/parallax/jarallax.css">
-  <link rel="stylesheet" href="assets/dropdown/css/style.css">
-  <link rel="stylesheet" href="assets/socicon/css/styles.css">
-  <link rel="stylesheet" href="assets/theme/css/style.css">
-  <link rel="stylesheet" href="assets/recaptcha.css">
+  <link rel="stylesheet" href="../../assets/web/../../assets/mobirise-icons2/mobirise2.css">
+  <link rel="stylesheet" href="../../assets/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../../assets/bootstrap/css/bootstrap-grid.min.css">
+  <link rel="stylesheet" href="../../assets/bootstrap/css/bootstrap-reboot.min.css">
+  <link rel="stylesheet" href="../../assets/parallax/jarallax.css">
+  <link rel="stylesheet" href="../../assets/dropdown/css/style.css">
+  <link rel="stylesheet" href="../../assets/socicon/css/styles.css">
+  <link rel="stylesheet" href="../../assets/theme/css/style.css">
+  <link rel="stylesheet" href="../../assets/recaptcha.css">
   <link rel="preload" href="https://fonts.googleapis.com/css?family=Anybody:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
   <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Anybody:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i&display=swap"></noscript>
-  <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css?v=UbLfuI"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css?v=UbLfuI" type="text/css">
+  <link rel="preload" as="style" href="../../assets/mobirise/css/mbr-additional.css?v=UbLfuI"><link rel="stylesheet" href="../../assets/mobirise/css/mbr-additional.css?v=UbLfuI" type="text/css">
 
   
   
@@ -37,7 +37,7 @@
             <div class="navbar-brand">
                 <span class="navbar-logo">
                     <a href="#">
-                        <img src="assets/images/3-176x176.png" alt="" style="height: 5.5rem;">
+                        <img src="../../assets/images/3-176x176.png" alt="" style="height: 5.5rem;">
                     </a>
                 </span>
                 
@@ -105,58 +105,60 @@
             </div>
             <div class="col-12 col-lg-6">
                 <div class="mbr-form form-wrapper" data-form-type="formoid">
-<!--Formbuilder Form-->
-<form action="https://mobirise.eu/" method="POST" class="mbr-form form-with-styler" data-form-title="Form Name"><input type="hidden" name="email" data-form-email="true" value="ceWuWdsPLXZKJHtmdABxyjWJ/N5nBasxzoLZ5JNIwPe5Y10Bd86gp29vzPYH7ptKwyzmvaBv/cdeiemvEIlhdDl583t3DjScGz4rVYMZ/W70ZjLTutnRCHNBtsodKtfI.39rX+IY3qxgCCBVNCCI5l1mqvno2T5tozUwJJ17P4vCfzoPyL6GqqvCNEbiHtahXaDjxmsiL5Hg/8nkPrP3qXuk3G2u1a3cYiL5wjPVyxclPQ/FcwOjC9jY6g5hbJGfJ">
-<div class="row">
-<div hidden="hidden" data-form-alert="" class="alert alert-success col-12">Obrigado por se cadastrar!
-Thank you for signing up!</div>
-<div hidden="hidden" data-form-alert-danger="" class="alert alert-danger col-12"> Oops...! some problem! </div>
-</div>
-<div class="dragArea row">
-<div class="col-lg-12 col-md-12 col-sm-12 form-group mb-3 mb-3 mb-3" data-for="name">
-<label for="name-form01-3h" class="form-control-label mbr-fonts-style display-4">NAME*</label>
-<input type="text" name="name" data-form-field="name" class="form-control display-4" value="" id="name-form01-3h">
-</div>
-<div class="col-lg-12 col-md-12 col-sm-12 form-group mb-3 mb-3" data-for="email">
-<label for="email-form01-3h" class="form-control-label mbr-fonts-style display-4">E-MAIL*</label>
-<input type="email" name="email" data-form-field="email" class="form-control display-4" value="" id="email-form01-3h">
-</div>
-<div data-for="number" class="col-lg-12 col-md-12 col-sm-12 form-group mb-3">
-<label for="number-form01-3h" class="form-control-label mbr-fonts-style display-4">PHONE*</label>
-<input type="number" name="number" data-form-field="number" class="form-control display-4" max="100" min="0" step="1" value="" id="number-form01-3h">
-</div>
-<div class="col-lg-12 col-md-12 col-sm-12">
-<p class="mbr-fonts-style display-7">Data de Nascimento /&nbsp;Date of birth*</p>
-</div>
-<div data-for="date" class="col-lg-12 col-md-12 col-sm-12 form-group">
-<input type="date" name="date" data-form-field="date" class="form-control display-7" value="2018-07-22" id="date-form01-3h">
-</div>
-<div class="col-lg-12 col-md-12 col-sm-12">
-<p class="mbr-fonts-style display-7">Tipo de contrato /&nbsp;Type of contract</p>
-</div>
-<div class="col-lg-12 col-md-12 col-sm-12 form-group" data-for="select">
-<select name="select" data-form-field="select" class="form-control form-select display-7" id="select-form01-3h">
-<option value="Select">Select</option>
-<option value="Second">Second</option>
-<option value="Third">Third</option>
-</select>
-</div>
-<div class="col-lg-12 col-md-12 col-sm-12" style="">
-<p class="mbr-fonts-style display-7">Senha para o sistema /&nbsp;Password for the system</p>
-</div>
-<div class="col-lg-12 col-md-12 col-sm-12 form-group" data-for="password">
-<input type="password" name="password" placeholder="password" data-form-field="password" class="form-control display-7" value="" id="password-form01-3h">
-</div>
-<div class="col-lg-12 col-md-12 col-sm-12 form-group mb-3" data-for="textarea">
-<label for="textarea-form01-3h" class="form-control-label mbr-fonts-style display-4">Escreva uma pequena descrição sobre você!Write a short description about yourself!</label>
-<textarea name="textarea" data-form-field="textarea" class="form-control display-4" id="textarea-form01-3h"></textarea>
-</div>
-<div class="col mbr-section-btn">
-<button type="submit" class="w-100 btn btn-primary display-4">Cadastrar</button>
-</div>
-</div>
-</form><!--Formbuilder Form-->
-</div>
+                        <!--Formbuilder Form-->
+                        <form action="processar_cadastro.php"  method="POST" class="mbr-form form-with-styler" data-form-title="Form Name">
+                            
+                        <div class="row">
+                        <div hidden="hidden" data-form-alert="" class="alert alert-success col-12">Obrigado por se cadastrar!
+                        Thank you for signing up!</div>
+                        <div hidden="hidden" data-form-alert-danger="" class="alert alert-danger col-12"> Oops...! some problem! </div>
+                        </div>
+                        <div class="dragArea row">
+                        <div class="col-lg-12 col-md-12 col-sm-12 form-group mb-3 mb-3 mb-3" data-for="name">
+                        <label for="name-form01-3h" class="form-control-label mbr-fonts-style display-4">NAME*</label>
+                        <input type="text" name="name" data-form-field="name" class="form-control display-4" value="" id="name-form01-3h">
+                        </div>
+                        <div class="col-lg-12 col-md-12 col-sm-12 form-group mb-3 mb-3" data-for="email">
+                        <label for="email-form01-3h" class="form-control-label mbr-fonts-style display-4">E-MAIL*</label>
+                        <input type="email" name="email" data-form-field="email" class="form-control display-4" value="" id="email-form01-3h">
+                        </div>
+                        <div data-for="number" class="col-lg-12 col-md-12 col-sm-12 form-group mb-3">
+                        <label for="number-form01-3h" class="form-control-label mbr-fonts-style display-4">PHONE*</label>
+                        <input type="number" name="number" data-form-field="number" class="form-control display-4"id="number-form01-3h">
+                        </div>
+                        <div class="col-lg-12 col-md-12 col-sm-12">
+                        <p class="mbr-fonts-style display-7">Data de Nascimento /&nbsp;Date of birth*</p>
+                        </div>
+                        <div data-for="date" class="col-lg-12 col-md-12 col-sm-12 form-group">
+                        <input type="date" name="date" data-form-field="date" class="form-control display-7" value="2018-07-22" id="date-form01-3h">
+                        </div>
+                        <div class="col-lg-12 col-md-12 col-sm-12">
+                        <p class="mbr-fonts-style display-7">Tipo de contrato /&nbsp;Type of contract</p>
+                        </div>
+                        <div class="col-lg-12 col-md-12 col-sm-12 form-group" data-for="select">
+                        <select name="select" data-form-field="select" class="form-control form-select display-7" id="select-form01-3h">
+                        <option value="Select">Select</option>
+                        <option value="Second">Horas Exatas</option>
+                        <option value="Third">Periodo</option>
+                        </select>
+                        </div>
+                        <div class="col-lg-12 col-md-12 col-sm-12" >
+                        <p class="mbr-fonts-style display-7">Senha para o sistema /&nbsp;Password for the system</p>
+                        </div>
+                        <div class="col-lg-12 col-md-12 col-sm-12 form-group" data-for="password">
+                        <input type="password" name="password" placeholder="password" data-form-field="password" class="form-control display-7" value="" id="password-form01-3h">
+                        </div>
+                        <div class="col-lg-12 col-md-12 col-sm-12 form-group mb-3" data-for="textarea">
+                        <label for="textarea-form01-3h" class="form-control-label mbr-fonts-style display-4">Escreva uma pequena descrição sobre você! / Write a short description about yourself!</label>
+                        <textarea name="textarea" data-form-field="textarea" class="form-control display-4" id="textarea-form01-3h"></textarea>
+                        </div>
+                        <div class="col mbr-section-btn">
+                        <button type="submit" class="w-100 btn btn-primary display-4" onclick="alert('Botão Cadastrar clicado!');">Cadastrar</button>
+
+                        </div>
+                        </div>
+                        </form><!--Formbuilder Form-->
+                        </div>
             </div>
             <div class="col-12 col-lg-5">
                 <div class="content-wrapper">
@@ -250,13 +252,13 @@ Thank you for signing up!</div>
 </section>
 
 
-<script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/parallax/jarallax.js"></script>
-  <script src="assets/smoothscroll/smooth-scroll.js"></script>
-  <script src="assets/ytplayer/index.js"></script>
-  <script src="assets/dropdown/js/navbar-dropdown.js"></script>
-  <script src="assets/theme/js/script.js"></script>
-  <script src="assets/formoid.min.js"></script>
+<script src="../../assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="../../assets/parallax/jarallax.js"></script>
+  <script src="../../assets/smoothscroll/smooth-scroll.js"></script>
+  <script src="../../assets/ytplayer/index.js"></script>
+  <script src="../../assets/dropdown/js/navbar-dropdown.js"></script>
+  <script src="../../assets/theme/js/script.js"></script>
+  <script src="../../assets/formoid.min.js"></script>
   
   
   
