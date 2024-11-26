@@ -40,7 +40,7 @@
         <div class="row">
             <div class="col-lg-8 mx-auto mbr-form" data-form-type="formoid">
 <!--Formbuilder Form-->
-<form action="https://mobirise.eu/" method="POST" class="mbr-form form-with-styler" data-form-title="Cadastro Aluno"><input type="hidden" name="email" data-form-email="true" value="XKHA825OAJu3ymu/x06YWBrQYWfZnaiM5RUlNj8f3XkOpDqFkU+I9tVI8aH0BFXdmHxGVG4icut8BSna662L6zo/GPMh9obN/fv5u7sZuPSa6KEy9PLzFR5tkLC2m8oG.YdxYu/cplcHLqErz9+EyZpmlKZxD0etcIJ4ul/3vRpTxxla8qclS2Oem8XuTXKloc0X8M4VaqytMHWq7vKruCXBiVSBuGenbGq4lPrfZRmQv0Hqc2LlECs2uPhUUmbEt">
+<form action="processa_cadastro.php" method="POST" class="mbr-form form-with-styler" data-form-title="Cadastro Aluno">
 <div class="form-row">
 <div hidden="hidden" data-form-alert="" class="alert alert-success col-12">Cadastro realizado com sucesso!</div>
 <div hidden="hidden" data-form-alert-danger="" class="alert alert-danger col-12">Oops...! some problem!</div>
@@ -87,13 +87,13 @@
 <hr>
 </div>
 <div data-for="number" class="col-lg-12 col-md-12 col-sm-12 form-group">
-<input type="number" name="number" placeholder="CEP" max="100" min="0" step="1" data-form-field="number" required="required" class="form-control display-7" value="" id="number-formbuilder-45">
+<input type="number" name="number" placeholder="CEP" max="100000000" min="0" step="1" data-form-field="number" required="required" class="form-control display-7" value="" id="number-formbuilder-45">
 </div>
 <div data-for="text1" class="col-lg-12 col-md-12 col-sm-12 form-group">
 <input type="text" name="text1" placeholder="Rua" data-form-field="text1" required="required" class="form-control display-7" value="" id="text1-formbuilder-45">
 </div>
 <div data-for="number1" class="col-lg-12 col-md-12 col-sm-12 form-group">
-<input type="number" name="number1" placeholder="Numero" max="10000" min="0" step="1" data-form-field="number1" required="required" class="form-control display-7" value="" id="number1-formbuilder-45">
+<input type="number" name="number1" placeholder="Numero" max="100000000" min="0" step="1" data-form-field="number1" required="required" class="form-control display-7" value="" id="number1-formbuilder-45">
 </div>
 <div data-for="text2" class="col-lg-12 col-md-12 col-sm-12 form-group">
 <input type="text" name="text2" placeholder="Bairro" data-form-field="text2" required="required" class="form-control display-7" value="" id="text2-formbuilder-45">
