@@ -55,10 +55,10 @@
                     <li class="nav-item"><a class="nav-link link text-black show display-4" href="#" aria-expanded="false">ABOUT</a></li>
                     <li class="nav-item"><a class="nav-link link text-black display-4" href="#">FEATURES</a>
                     </li>
-                    <li class="nav-item"><a class="nav-link link text-black text-primary display-4" href="page1.html">Cadastro</a>
+                    <li class="nav-item"><a class="nav-link link text-black text-primary display-4" href="views/cadastro/">Cadastro</a>
                     </li></ul>
                 
-                <div class="navbar-buttons mbr-section-btn"><a class="btn btn-success display-4" href="#">LOGIN<br></a></div>
+                <div class="navbar-buttons mbr-section-btn"><a class="btn btn-success display-4" href="../login/">LOGIN<br></a></div>
             </div>
         </div>
     </nav>

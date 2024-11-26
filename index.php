@@ -50,14 +50,14 @@
                 </div>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav nav-dropdown" data-app-modern-menu="true"><li class="nav-item"><a class="nav-link link text-black text-primary display-4" href="index.html">HOME</a></li>
-                    <li class="nav-item"><a class="nav-link link text-black show display-4" href="#" aria-expanded="false">ABOUT</a></li>
-                    <li class="nav-item"><a class="nav-link link text-black display-4" href="#">FEATURES</a>
+                <ul class="navbar-nav nav-dropdown" data-app-modern-menu="true"><li class="nav-item"><a class="nav-link link text-black text-primary display-4" href="index">HOME</a></li>
+                    <li class="nav-item"><a class="nav-link link text-black show display-4" href="#" aria-expanded="false">Sobre</a></li>
+                    <li class="nav-item"><a class="nav-link link text-black display-4" href="#">Blog</a>
                     </li>
-                    <li class="nav-item"><a class="nav-link link text-black text-primary display-4" href="page1.html">Cadastro</a>
+                    <li class="nav-item"><a class="nav-link link text-black text-primary display-4" href="views/cadastro/">Cadastro</a>
                     </li></ul>
                 
-                <div class="navbar-buttons mbr-section-btn"><a class="btn btn-success display-4" href="#">LOGIN<br></a></div>
+                <div class="navbar-buttons mbr-section-btn"><a class="btn btn-success display-4" href="views/login/">LOGIN<br></a></div>
             </div>
         </div>
     </nav>
@@ -698,61 +698,66 @@
 
     
     
-    <div class="container">
-        <div class="row">
-            <div class="col-12 col-md-6 col-lg-6">
-                <h3 class="mbr-section-title mbr-fonts-style display-5">
-                    ResultM5
-                </h3>
-                <div class="soc-wrapper">
-                    <div class="social-row">
-                        <div class="soc-item">
-                            <a href="https://twitter.com/mobirise" target="_blank">
-                                <span class="mbr-iconfont socicon socicon-facebook"></span>
-                            </a>
+    <section data-bs-version="5.1" class="footer1 cid-uu6n1hlzhV" once="footers" id="footer1-2x">
+
+    
+
+    
+    
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-6">
+                    <h3 class="mbr-section-title mbr-fonts-style display-5">
+                        Seidman Institute</h3>
+                    <div class="soc-wrapper">
+                        <div class="social-row">
+                            <div class="soc-item">
+                                <a href="https://www.facebook.com/Seidmanninstitute" target="_blank">
+                                    <span class="mbr-iconfont socicon-facebook socicon"></span>
+                                </a>
+                            </div>
+                            <div class="soc-item">
+                                <a href="https://x.com/?lang=pt-br" target="_blank">
+                                    <span class="mbr-iconfont socicon-twitter socicon"></span>
+                                </a>
+                            </div>
+                            <div class="soc-item">
+                                <a href="https://www.instagram.com/seidmann_institute/" target="_blank">
+                                    <span class="mbr-iconfont socicon-instagram socicon"></span>
+                                </a>
+                            </div>
+                            
                         </div>
-                        <div class="soc-item">
-                            <a href="https://twitter.com/mobirise" target="_blank">
-                                <span class="mbr-iconfont socicon socicon-twitter"></span>
-                            </a>
-                        </div>
-                        <div class="soc-item">
-                            <a href="https://twitter.com/mobirise" target="_blank">
-                                <span class="mbr-iconfont socicon socicon-instagram"></span>
-                            </a>
-                        </div>
-                        
                     </div>
                 </div>
+                <div class="col-12 col-md-6 col-lg-2">
+                    <ul class="list mbr-fonts-style display-4">
+                        <li class="mbr-text item-wrap"><strong>Teachers</strong></li>
+                        <li class="mbr-text item-wrap"><a href="views/cadastroteacher/" class="text-primary">Teachers&nbsp;Cadastro</a></li>
+                        <li class="mbr-text item-wrap"><a href="views/login/" class="text-primary">Teachers Login</a></li>
+                        <li class="mbr-text item-wrap"><br></li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-6 col-lg-2">
+                    <ul class="list mbr-fonts-style display-4">
+                        <li class="mbr-text item-wrap"><strong>Products</strong></li>
+                        <li class="mbr-text item-wrap">English</li>
+                        <li class="mbr-text item-wrap">Spanish</li>
+                        <li class="mbr-text item-wrap">English for tannery</li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-6 col-lg-2">
+                    <ul class="list mbr-fonts-style display-4">
+                        <li class="mbr-text item-wrap"><strong>About us</strong></li>
+                        <li class="mbr-text item-wrap">Onde&nbsp; estamos?</li>
+                        <li class="mbr-text item-wrap">Tradição</li>
+                        <li class="mbr-text item-wrap">Compromisso</li>
+                        <li class="mbr-text item-wrap">Qualidade</li>
+                    </ul>
+                </div>
+                
             </div>
-            <div class="col-12 col-md-6 col-lg-2">
-                <ul class="list mbr-fonts-style display-4">
-                    <li class="mbr-text item-wrap"><strong>Description</strong></li>
-                    <li class="mbr-text item-wrap"><a href="views/cadastroteacher/index.php" class="text-primary">Teachers</a></li>
-                    <li class="mbr-text item-wrap">Students</li>
-                    <li class="mbr-text item-wrap"><br></li>
-                </ul>
-            </div>
-            <div class="col-12 col-md-6 col-lg-2">
-                <ul class="list mbr-fonts-style display-4">
-                    <li class="mbr-text item-wrap"><strong>Products</strong></li>
-                    <li class="mbr-text item-wrap">English</li>
-                    <li class="mbr-text item-wrap">Spanish</li>
-                    <li class="mbr-text item-wrap">English for tannery</li>
-                </ul>
-            </div>
-            <div class="col-12 col-md-6 col-lg-2">
-                <ul class="list mbr-fonts-style display-4">
-                    <li class="mbr-text item-wrap"><strong>About us</strong></li>
-                    <li class="mbr-text item-wrap">Onde&nbsp; estamos?</li>
-                    <li class="mbr-text item-wrap">Tradição</li>
-                    <li class="mbr-text item-wrap">Compromisso</li>
-                    <li class="mbr-text item-wrap">Qualidade</li>
-                </ul>
-            </div>
-            
         </div>
-    </div>
 </section>
 
 <section data-bs-version="5.1" class="footer2 cid-t9orCwv0It" id="footer02-a">

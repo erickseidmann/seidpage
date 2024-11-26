@@ -32,7 +32,7 @@ try {
                 session_start();
                 $_SESSION['professor_id'] = $user['id'];
                 $_SESSION['professor_nome'] = $user['nome'];
-                header("Location: ../dashbordteachers/index.php"); // Redirecionar para a página inicial
+                header("Location: ../dashbordteachers/"); // Redirecionar para a página inicial
                 exit;
             } else {
                 $login_error = "Senha incorreta.";
@@ -59,7 +59,7 @@ try {
   
   <title>Login</title>
   
-  <?php include '../comun/headerlogin.php'; ?>
+  <?php include '../comun/header.php'; ?>
   </head>
   <body>
 
