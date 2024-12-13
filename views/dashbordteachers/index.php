@@ -42,7 +42,7 @@ $professor_nome = $_SESSION['professor_nome'];
                     <div class="dot"></div>
                     <div class="dot dot-right "></div>
                 </div>
-                <h1 class="mbr-section-title mbr-fonts-style mb-3 display-1"><strong>Bem vindo(a) teacher, <?php echo htmlspecialchars($professor_nome); ?>!</strong><br><strong><br></strong>Welcome teacher, <?php echo htmlspecialchars($professor_nome); ?>!<br>Bienvenido(a) profesor(a), <?php echo htmlspecialchars($professor_nome); ?>!<br><br></h1>
+                <h1 class="mbr-section-title mbr-fonts-style mb-3 display-1"><strong>Welcome teacher, <?php echo htmlspecialchars($professor_nome); ?>!<br><br></h1>
                 
                 
                 

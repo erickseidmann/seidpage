@@ -1,41 +1,41 @@
 <!DOCTYPE html>
 <html  >
 <head>
-  
+
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  
+
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
   <link rel="shortcut icon" href="../../assets/images/3-176x176.png" type="image/x-icon">
   <meta name="description" content="">
-  
-  
+
+  <title>Cadastro</title>
   <?php include '../comun/header.php'; ?>
   </head>
   <body>
 
 <section data-bs-version="5.1" class="buildm5 header4 cid-uu6pgHYQza mbr-parallax-background" id="header4-3d">
-  
-  
-  
+
+
+
   <div class="container-fluid">
     <div class="row">
       <div class="content-wrap col-12 col-md-12">
-        
-        
+
+
 
         <h1 class="mbr-section-title mbr-fonts-style mbr-white mb-4 display-1">Cadastro</h1>
 
-        
-        
+
+
       </div>
     </div>
   </div>
 </section>
 
 <section class="form cid-uveDHyXcxC" id="formbuilder-45">
-    
-    
+
+
     <div class="container">
         <div class="row">
             <div class="col-lg-8 mx-auto mbr-form" data-form-type="formoid">
@@ -217,10 +217,10 @@
 
 <section data-bs-version="5.1" class="footer1 cid-uu6n1hlzhV" once="footers" id="footer1-2x">
 
-    
 
-    
-    
+
+
+
     <div class="container">
         <div class="row">
             <div class="col-12 col-md-6 col-lg-6">
@@ -243,7 +243,7 @@
                                 <span class="mbr-iconfont socicon-instagram socicon"></span>
                             </a>
                         </div>
-                        
+
                     </div>
                 </div>
             </div>
@@ -272,16 +272,16 @@
                     <li class="mbr-text item-wrap">Qualidade</li>
                 </ul>
             </div>
-            
+
         </div>
     </div>
 </section>
 
 <section data-bs-version="5.1" class="footer2 cid-uu6mbtJj39" id="footer02-e">
 
-    
 
-    
+
+
 
     <div class="container">
         <div class="media-container-row align-center mbr-white">
@@ -302,8 +302,8 @@
   <script src="assets/dropdown/js/navbar-dropdown.js"></script>
   <script src="assets/theme/js/script.js"></script>
   <script src="assets/formoid.min.js"></script>
-  
-  
-  
+
+
+
 </body>
 </html>

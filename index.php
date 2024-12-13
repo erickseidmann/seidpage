@@ -210,14 +210,13 @@
     <div class="container">
         <div class="row">
             <div class="col-12 col-lg-6 image-wrapper">
-                <h2 class="mbr-section-subtitle align-left mbr-fonts-style mb-5 display-2">
-                    Web Development</h2>
+                <h2 class="mbr-section-subtitle align-left mbr-fonts-style mb-5 display-2">Por que estudar conosco?</h2>
                 <div class="d-flex">
                     <div class="dot"></div>
                     <div class="dot dot-right "></div>
                 </div>
                 <div class="img-wrapper">
-                    <img class="w-100" src="assets/images/features1.jpg" alt="">
+                    <img class="w-100" src="assets/images/foto-de-perfil-com-bales-de-fala-para-professor-de-cursos-vermelho-e-azul-1504x1504.png" alt="">
                 </div>
                 <div class="d-flex">
                     <div class="dot"></div>
@@ -228,13 +227,8 @@
                 <div class="text-wrapper align-left">
                     <h2 class="mbr-section-title mbr-fonts-style display-2">
                         01</h2>
-                    <p class="mbr-text pb-3 mbr-fonts-style display-7"><strong>
-                            LOREM IPSUM DOLOR SIT AMET CONSECTETUR</strong><br><br>Morbi vel ante nulla. Suspendisse cursus
-                        elit sed risus vestibulum, ut feugiat velit pharetra. In nulla augue, imperdiet ut orci non,
-                        pharetra varius orci. Duis scelerisque bibendum purus, at dapibus tortor vestibulum vitae. Nulla
-                        feugiat tincidunt vulputate. Aliquam placerat vitae quam sed commodo. Proin ipsum metus,
-                        hendrerit eu sem sit amet.</p>
-                    <div class="mbr-section-btn mt-3"><a class="btn btn-lg btn-black display-7" href="#"><span>Read More</span></a></div>
+                    <p class="mbr-text pb-3 mbr-fonts-style display-7"><strong>Conversação!&nbsp;</strong><br><br>Nosso método é completamente voltado para conversação, onde ajudamos o aluno a entender as estruturas para desenvolver conversas desde o mais básico ao mais avançado!</p>
+                    <div class="mbr-section-btn mt-3"><a class="btn btn-lg btn-black display-7" href="#">Aula Demonstrativa agora!<span></span></a></div>
                 </div>
             </div>
         </div>
@@ -251,14 +245,13 @@
     <div class="container">
         <div class="row">
             <div class="col-12 col-lg-6 image-wrapper">
-                <h2 class="mbr-section-subtitle align-left mbr-fonts-style mb-5 display-2">
-                    Web Design</h2>
+                <h2 class="mbr-section-subtitle align-left mbr-fonts-style mb-5 display-2">Por que estudar conosco?</h2>
                 <div class="d-flex">
                     <div class="dot"></div>
                     <div class="dot dot-right "></div>
                 </div>
                 <div class="img-wrapper">
-                    <img class="w-100" src="assets/images/features2.jpg" alt="">
+                    <img class="w-100" src="assets/images/23-1504x1504.png" alt="">
                 </div>
                 <div class="d-flex">
                     <div class="dot"></div>
@@ -269,13 +262,8 @@
                 <div class="text-wrapper align-left">
                     <h2 class="mbr-section-title mbr-fonts-style display-2">
                         02</h2>
-                    <p class="mbr-text pb-3 mbr-fonts-style display-7"><strong>
-                            LOREM IPSUM DOLOR SIT AMET CONSECTETUR</strong><br><br>Morbi vel ante nulla. Suspendisse cursus
-                        elit sed risus vestibulum, ut feugiat velit pharetra. In nulla augue, imperdiet ut orci non,
-                        pharetra varius orci. Duis scelerisque bibendum purus, at dapibus tortor vestibulum vitae. Nulla
-                        feugiat tincidunt vulputate. Aliquam placerat vitae quam sed commodo. Proin ipsum metus,
-                        hendrerit eu sem sit amet.</p>
-                    <div class="mbr-section-btn mt-3"><a class="btn btn-lg btn-black display-7" href="#"><span>Read More</span></a></div>
+                    <p class="mbr-text pb-3 mbr-fonts-style display-7"><strong>Em qualquer lugar!</strong><br><br>No mundo atual é muito difícil você estar no mesmo lugar sempre, com ensino online você estuda em qualquer lugar, você só precisa dedicar 30 minutinhos!</p>
+                    <div class="mbr-section-btn mt-3"><a class="btn btn-lg btn-black display-7" href="#">Aula Demonstrativa agora!</a></div>
                 </div>
             </div>
         </div>
@@ -292,14 +280,13 @@
     <div class="container">
         <div class="row">
             <div class="col-12 col-lg-6 image-wrapper">
-                <h2 class="mbr-section-subtitle align-left mbr-fonts-style mb-5 display-2">
-                    SEO / Marketing</h2>
+                <h2 class="mbr-section-subtitle align-left mbr-fonts-style mb-5 display-2">Por que estudar conosco?</h2>
                 <div class="d-flex">
                     <div class="dot"></div>
                     <div class="dot dot-right "></div>
                 </div>
                 <div class="img-wrapper">
-                    <img class="w-100" src="assets/images/features3.jpg" alt="">
+                    <img class="w-100" src="assets/images/24-1504x1504.png" alt="">
                 </div>
                 <div class="d-flex">
                     <div class="dot"></div>
@@ -310,116 +297,11 @@
                 <div class="text-wrapper align-left">
                     <h2 class="mbr-section-title mbr-fonts-style display-2">
                         03</h2>
-                    <p class="mbr-text pb-3 mbr-fonts-style display-7"><strong>
-                            LOREM IPSUM DOLOR SIT AMET CONSECTETUR</strong><br><br>Morbi vel ante nulla. Suspendisse cursus
-                        elit sed risus vestibulum, ut feugiat velit pharetra. In nulla augue, imperdiet ut orci non,
-                        pharetra varius orci. Duis scelerisque bibendum purus, at dapibus tortor vestibulum vitae. Nulla
-                        feugiat tincidunt vulputate. Aliquam placerat vitae quam sed commodo. Proin ipsum metus,
-                        hendrerit eu sem sit amet.</p>
-                    <div class="mbr-section-btn mt-3"><a class="btn btn-lg btn-black display-7" href="#"><span>Read More</span></a></div>
+                    <p class="mbr-text pb-3 mbr-fonts-style display-7"><strong>Os melhores professores!&nbsp;&nbsp;</strong><br><br>Nossa equipe conta com professores com excelentes formações, professores que tiveram experiência fora do país e até professores de outros países!</p>
+                    <div class="mbr-section-btn mt-3"><a class="btn btn-lg btn-black display-7" href="#"><span>Aula Demonstrativa agora!</span></a></div>
                 </div>
             </div>
         </div>
-    </div>
-</section>
-
-<section data-bs-version="5.1" class="list1 cid-t9otdQxniA" id="list01-g">
-
-    
-
-    
-    
-
-    <div class="container">
-        <div class="row">
-
-            <div class="col-12 col-lg-5 my-auto">
-
-                <h2 class="mbr-section-subtitle align-left mbr-fonts-style mb-3 display-2">DESIGN</h2>
-            </div>
-            <div class="col-12 col-lg-4">
-
-                <p class="mbr-text align-left mbr-fonts-style display-5">Lorem ipsum dolor sit amet, consectetur adipiscing
-                    elit.</p>
-            </div>
-            <div class="col-12">
-                <div class="line"></div>
-            </div>
-
-
-        </div>
-
-        <div class="row">
-
-            <div class="col-12 col-lg-5 my-auto">
-
-                <h2 class="mbr-section-subtitle align-left mbr-fonts-style mb-3 display-2">DEVELOPMENT</h2>
-            </div>
-            <div class="col-12 col-lg-4">
-
-                <p class="mbr-text align-left mbr-fonts-style display-5">Maecenas in felis vehicula, cursus nulla vestibulum
-                    enim.</p>
-            </div>
-            <div class="col-12">
-                <div class="line"></div>
-            </div>
-
-
-        </div>
-
-        <div class="row">
-
-            <div class="col-12 col-lg-5 my-auto">
-
-                <h2 class="mbr-section-subtitle align-left mbr-fonts-style mb-3 display-2">SUPPORT</h2>
-            </div>
-            <div class="col-12 col-lg-4">
-
-                <p class="mbr-text align-left mbr-fonts-style display-5">Phasellus imperdiet turpis ac dui rutrum
-                    sollicitudin turpis.</p>
-            </div>
-            <div class="col-12">
-                <div class="line"></div>
-            </div>
-
-
-        </div>
-        <div class="row">
-
-            <div class="col-12 col-lg-5 my-auto">
-
-                <h2 class="mbr-section-subtitle align-left mbr-fonts-style mb-3 display-2">ANALITICS</h2>
-            </div>
-            <div class="col-12 col-lg-4">
-
-                <p class="mbr-text align-left mbr-fonts-style display-5">Quisque facilisis tortor a est ornare&nbsp;bibendum
-                    pharetra. </p>
-            </div>
-            <div class="col-12">
-                <div class="line"></div>
-            </div>
-
-
-        </div>
-        <div class="row">
-
-            <div class="col-12 col-lg-5 my-auto">
-
-                <h2 class="mbr-section-subtitle align-left mbr-fonts-style mb-3 display-2">HELP</h2>
-            </div>
-            <div class="col-12 col-lg-4">
-
-                <p class="mbr-text align-left mbr-fonts-style display-5">Aenean rhoncus leo ut accumsan fringilla finibus.
-                </p>
-            </div>
-            <div class="col-12">
-                <div class="line"></div>
-            </div>
-
-
-        </div>
-
-
     </div>
 </section>
 
@@ -437,7 +319,7 @@
                     <div class="dot"></div>
                     <div class="dot dot-right "></div>
                 </div>
-                <h2 class="mbr-section-subtitle mbr-fonts-style mb-3 display-7">OUR HAPPY</h2>
+                <h2 class="mbr-section-subtitle mbr-fonts-style mb-3 display-7">Nossos parceiros</h2>
                 <h1 class="mbr-section-title mbr-fonts-style mb-1 display-1">CLIENTS</h1>
 
                 
@@ -516,97 +398,6 @@
                     <div class="dot dot-right "></div>
                 </div>
             </div>
-
-        </div>
-    </div>
-</section>
-
-<section data-bs-version="5.1" class="people4 cid-t9orzGRVop" id="people04-7">
-    
-    <div class="images-container container">
-        <div class="mbr-section-head">
-            <h3 class="mbr-section-title mbr-fonts-style pb-4 align-left mb-5 display-1"><strong>LEADERSHIP</strong></h3>
-
-
-        </div>
-        <div class="row mt-4">
-            <div class="col-md-3 col-lg-3 col-md-6 mb-4">
-                <div class="d-flex">
-                    <div class="dot"></div>
-                    <div class="dot dot-right "></div>
-                </div>
-                <div class="card">
-                    <img src="assets/images/team1.jpg" alt="">
-
-                </div>
-                <div class="d-flex">
-                    <div class="dot"></div>
-                    <div class="dot dot-right "></div>
-                </div>
-
-
-
-                <p class="mbr-section-text mbr-fonts-style align-center mb-0 mt-3 display-5">Daryl Rowe<br></p>
-
-                <h4 class="mbr-section-subtitle mbr-fonts-style align-center mb-0 display-7">DEVELOPER</h4>
-
-            </div>
-            <div class="col-md-3 col-lg-3 col-md-6 mb-4">
-                <div class="d-flex">
-                    <div class="dot"></div>
-                    <div class="dot dot-right "></div>
-                </div>
-
-                <div class="card">
-                    <img src="assets/images/team2.jpg" alt="">
-
-                </div>
-                <div class="d-flex">
-                    <div class="dot"></div>
-                    <div class="dot dot-right "></div>
-                </div>
-                <p class="mbr-section-text mbr-fonts-style align-center mb-0 mt-3 display-5">Justin Treiber</p>
-
-                <h4 class="mbr-section-subtitle mbr-fonts-style align-center mb-0 display-7">DEVELOPER</h4>
-            </div>
-            <div class="col-md-3 col-lg-3 col-md-6 mb-4">
-                <div class="d-flex">
-                    <div class="dot"></div>
-                    <div class="dot dot-right "></div>
-                </div>
-
-                <div class="card">
-                    <img src="assets/images/team3.jpg" alt="">
-
-                </div>
-                <div class="d-flex">
-                    <div class="dot"></div>
-                    <div class="dot dot-right "></div>
-                </div>
-                <p class="mbr-section-text mbr-fonts-style align-center mb-0 mt-3 display-5">Marsha Cyr</p>
-
-                <h4 class="mbr-section-subtitle mbr-fonts-style align-center mb-0 display-7">DESIGNER</h4>
-            </div>
-
-            <div class="col-md-3 col-lg-3 col-md-6 mb-4">
-                <div class="d-flex">
-                    <div class="dot"></div>
-                    <div class="dot dot-right "></div>
-                </div>
-
-                <div class="card">
-                    <img src="assets/images/team4.jpg" alt="">
-
-                </div>
-                <div class="d-flex">
-                    <div class="dot"></div>
-                    <div class="dot dot-right "></div>
-                </div>
-                <p class="mbr-section-text mbr-fonts-style align-center mb-0 mt-3 display-5">Debra Francis</p>
-
-                <h4 class="mbr-section-subtitle mbr-fonts-style align-center mb-0 display-7">MANAGER</h4>
-            </div>
-
 
         </div>
     </div>
@@ -698,66 +489,60 @@
 
     
     
-    <section data-bs-version="5.1" class="footer1 cid-uu6n1hlzhV" once="footers" id="footer1-2x">
-
-    
-
-    
-    
-        <div class="container">
-            <div class="row">
-                <div class="col-12 col-md-6 col-lg-6">
-                    <h3 class="mbr-section-title mbr-fonts-style display-5">
-                        Seidman Institute</h3>
-                    <div class="soc-wrapper">
-                        <div class="social-row">
-                            <div class="soc-item">
-                                <a href="https://www.facebook.com/Seidmanninstitute" target="_blank">
-                                    <span class="mbr-iconfont socicon-facebook socicon"></span>
-                                </a>
-                            </div>
-                            <div class="soc-item">
-                                <a href="https://x.com/?lang=pt-br" target="_blank">
-                                    <span class="mbr-iconfont socicon-twitter socicon"></span>
-                                </a>
-                            </div>
-                            <div class="soc-item">
-                                <a href="https://www.instagram.com/seidmann_institute/" target="_blank">
-                                    <span class="mbr-iconfont socicon-instagram socicon"></span>
-                                </a>
-                            </div>
-                            
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-6 col-lg-6">
+                <h3 class="mbr-section-title mbr-fonts-style display-5">
+                    Seidman Institute</h3>
+                <div class="soc-wrapper">
+                    <div class="social-row">
+                        <div class="soc-item">
+                            <a href="https://www.facebook.com/Seidmanninstitute" target="_blank">
+                                <span class="mbr-iconfont socicon-facebook socicon"></span>
+                            </a>
                         </div>
+                        <div class="soc-item">
+                            <a href="https://x.com/?lang=pt-br" target="_blank">
+                                <span class="mbr-iconfont socicon-twitter socicon"></span>
+                            </a>
+                        </div>
+                        <div class="soc-item">
+                            <a href="https://www.instagram.com/seidmann_institute/" target="_blank">
+                                <span class="mbr-iconfont socicon-instagram socicon"></span>
+                            </a>
+                        </div>
+                        
                     </div>
                 </div>
-                <div class="col-12 col-md-6 col-lg-2">
-                    <ul class="list mbr-fonts-style display-4">
-                        <li class="mbr-text item-wrap"><strong>Teachers</strong></li>
-                        <li class="mbr-text item-wrap"><a href="views/cadastroteacher/" class="text-primary">Teachers&nbsp;Cadastro</a></li>
-                        <li class="mbr-text item-wrap"><a href="views/login/" class="text-primary">Teachers Login</a></li>
-                        <li class="mbr-text item-wrap"><br></li>
-                    </ul>
-                </div>
-                <div class="col-12 col-md-6 col-lg-2">
-                    <ul class="list mbr-fonts-style display-4">
-                        <li class="mbr-text item-wrap"><strong>Products</strong></li>
-                        <li class="mbr-text item-wrap">English</li>
-                        <li class="mbr-text item-wrap">Spanish</li>
-                        <li class="mbr-text item-wrap">English for tannery</li>
-                    </ul>
-                </div>
-                <div class="col-12 col-md-6 col-lg-2">
-                    <ul class="list mbr-fonts-style display-4">
-                        <li class="mbr-text item-wrap"><strong>About us</strong></li>
-                        <li class="mbr-text item-wrap">Onde&nbsp; estamos?</li>
-                        <li class="mbr-text item-wrap">Tradição</li>
-                        <li class="mbr-text item-wrap">Compromisso</li>
-                        <li class="mbr-text item-wrap">Qualidade</li>
-                    </ul>
-                </div>
-                
             </div>
+            <div class="col-12 col-md-6 col-lg-2">
+                <ul class="list mbr-fonts-style display-4">
+                    <li class="mbr-text item-wrap"><strong>Teachers</strong></li>
+                    <li class="mbr-text item-wrap"><a href="views/cadastroteacher/" class="text-primary">Teachers&nbsp;Cadastro</a></li>
+                    <li class="mbr-text item-wrap"><a href="views/login/" class="text-primary">Teachers Login</a></li>
+                    <li class="mbr-text item-wrap"><br></li>
+                </ul>
+            </div>
+            <div class="col-12 col-md-6 col-lg-2">
+                <ul class="list mbr-fonts-style display-4">
+                    <li class="mbr-text item-wrap"><strong>Products</strong></li>
+                    <li class="mbr-text item-wrap">English</li>
+                    <li class="mbr-text item-wrap">Spanish</li>
+                    <li class="mbr-text item-wrap">English for tannery</li>
+                </ul>
+            </div>
+            <div class="col-12 col-md-6 col-lg-2">
+                <ul class="list mbr-fonts-style display-4">
+                    <li class="mbr-text item-wrap"><strong>About us</strong></li>
+                    <li class="mbr-text item-wrap">Onde&nbsp; estamos?</li>
+                    <li class="mbr-text item-wrap">Tradição</li>
+                    <li class="mbr-text item-wrap">Compromisso</li>
+                    <li class="mbr-text item-wrap">Qualidade</li>
+                </ul>
+            </div>
+            
         </div>
+    </div>
 </section>
 
 <section data-bs-version="5.1" class="footer2 cid-t9orCwv0It" id="footer02-a">
