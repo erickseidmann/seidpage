@@ -124,6 +124,8 @@ if ($result && $result->num_rows > 0) {
                     <option value="Não compareceu">Não compareceu</option>
                     <option value="Cancelou">Cancelou</option>
                     <option value="Reposição">Reposição</option>
+                    <option value="demonstrativa">Demonstrativa</option>
+                    <option value="Extra">Extra</option>
                 </select>
             </div>
             <hr>
@@ -149,9 +151,9 @@ if ($result && $result->num_rows > 0) {
 <option value="" disabled selected>Tempo de aula</option>
 <option value="30 min">30 min</option>
 <option value="45 min">45 min</option>
-<option value="1 hora">1 hora</option>
-<option value="1 hora e 30 min">1 hora e 30 min</option>
-<option value="2 horas">2 horas</option>
+<option value="60 min (1hora)">60 min (1hora)</option>
+<option value="90 min (1:30)">90 min (1:30)</option>
+<option value="120 min (2:00)">120 min (2:00)</option>
 </select>
 </div>
 <div class="col-lg-12 col-md-12 col-sm-12">
