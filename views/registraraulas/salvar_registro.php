@@ -58,7 +58,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     if ($stmt->execute()) {
         echo "<script>
                 alert('Registro salvo com sucesso!');
-                window.location.href = 'index';
+                window.location.href = 'index.php';
               </script>";
     } else {
         echo "<script>

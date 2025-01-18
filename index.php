@@ -51,10 +51,10 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav nav-dropdown" data-app-modern-menu="true"><li class="nav-item"><a class="nav-link link text-black text-primary display-4" href="index">HOME</a></li>
-                    <li class="nav-item"><a class="nav-link link text-black show display-4" href="#" aria-expanded="false">Sobre</a></li>
-                    <li class="nav-item"><a class="nav-link link text-black display-4" href="#">Blog</a>
+                   
+                    <li class="nav-item"><a class="nav-link link text-black display-4" href="views/cadastro/">Matricula</a>
                     </li>
-                    <li class="nav-item"><a class="nav-link link text-black text-primary display-4" href="views/cadastro/">Cadastro</a>
+                    <li class="nav-item"><a class="nav-link link text-black text-primary display-4" href="views/cadastroteacher/">Teahcers</a>
                     </li></ul>
                 
                 <div class="navbar-buttons mbr-section-btn"><a class="btn btn-success display-4" href="views/login/">LOGIN<br></a></div>
@@ -138,7 +138,7 @@
                                             Aprenda e se desenvolva com professores nativos no conforto da sua casa!<br>
                                         </p>
                                     </div>
-                                    <div class="mbr-section-btn item-footer mt-2"><a href="" class="btn item-btn btn-black display-4" target="_blank">Learn More</a></div>
+                                    <div class="mbr-section-btn item-footer mt-2"><a href="https://web.whatsapp.com/5519987121980" class="btn item-btn btn-black display-4" target="_blank">Saiba mais!</a></div>
                                 </div>
                             </div>
                             <div class="embla__slide slider-image item" style="margin-left: 1rem; margin-right: 1rem;">
@@ -159,30 +159,10 @@
                                         <p class="mbr-text mbr-fonts-style mt-3 display-7">
                                             Aprenda e se desenvolva com professores nativos no conforto da sua casa!</p>
                                     </div>
-                                    <div class="mbr-section-btn item-footer mt-2"><a href="" class="btn item-btn btn-black display-4" target="_blank">Learn More</a></div>
+                                    <div class="mbr-section-btn item-footer mt-2"><a href="https://web.whatsapp.com/5519987121980" class="btn item-btn btn-black display-4" target="_blank">Saiba mais!</a></div>
                                 </div>
                             </div>
-                            <div class="embla__slide slider-image item" style="margin-left: 1rem; margin-right: 1rem;">
-                                <div class="slide-content">
-                                    
-                                    <h6 class="item-subtitle mbr-fonts-style mt-1 display-2">SEO AND MARKETING
-                                    </h6>
-                                    <div class="item-wrapper">
-
-                                        <div class="item-img">
-                                            <img src="assets/images/features3.jpg" alt="">
-                                        </div>
-                                    </div>
-                                    <div class="item-content">
-
-                                        <p class="mbr-text mbr-fonts-style mt-3 display-7">
-                                            Select the theme that suits you.
-                                            Each theme
-                                            in the Mobirise Website Software contains a set of unique blocks.<br></p>
-                                    </div>
-                                    <div class="mbr-section-btn item-footer mt-2"><a href="" class="btn item-btn btn-black display-4" target="_blank">Learn More</a></div>
-                                </div>
-                            </div>
+                            
 
                         </div>
                     </div>
@@ -228,7 +208,7 @@
                     <h2 class="mbr-section-title mbr-fonts-style display-2">
                         01</h2>
                     <p class="mbr-text pb-3 mbr-fonts-style display-7"><strong>Conversação!&nbsp;</strong><br><br>Nosso método é completamente voltado para conversação, onde ajudamos o aluno a entender as estruturas para desenvolver conversas desde o mais básico ao mais avançado!</p>
-                    <div class="mbr-section-btn mt-3"><a class="btn btn-lg btn-black display-7" href="#">Aula Demonstrativa agora!<span></span></a></div>
+                    <div class="mbr-section-btn mt-3"><a class="btn btn-lg btn-black display-7" href="https://web.whatsapp.com/5519987121980">Aula Demonstrativa agora!<span></span></a></div>
                 </div>
             </div>
         </div>
@@ -263,7 +243,7 @@
                     <h2 class="mbr-section-title mbr-fonts-style display-2">
                         02</h2>
                     <p class="mbr-text pb-3 mbr-fonts-style display-7"><strong>Em qualquer lugar!</strong><br><br>No mundo atual é muito difícil você estar no mesmo lugar sempre, com ensino online você estuda em qualquer lugar, você só precisa dedicar 30 minutinhos!</p>
-                    <div class="mbr-section-btn mt-3"><a class="btn btn-lg btn-black display-7" href="#">Aula Demonstrativa agora!</a></div>
+                    <div class="mbr-section-btn mt-3"><a class="btn btn-lg btn-black display-7" href="https://web.whatsapp.com/5519987121980">Aula Demonstrativa agora!</a></div>
                 </div>
             </div>
         </div>
@@ -298,190 +278,14 @@
                     <h2 class="mbr-section-title mbr-fonts-style display-2">
                         03</h2>
                     <p class="mbr-text pb-3 mbr-fonts-style display-7"><strong>Os melhores professores!&nbsp;&nbsp;</strong><br><br>Nossa equipe conta com professores com excelentes formações, professores que tiveram experiência fora do país e até professores de outros países!</p>
-                    <div class="mbr-section-btn mt-3"><a class="btn btn-lg btn-black display-7" href="#"><span>Aula Demonstrativa agora!</span></a></div>
+                    <div class="mbr-section-btn mt-3"><a class="btn btn-lg btn-black display-7" href="https://web.whatsapp.com/5519987121980"><span>Aula Demonstrativa agora!</span></a></div>
                 </div>
             </div>
         </div>
     </div>
 </section>
 
-<section data-bs-version="5.1" class="header5 cid-t9osIcLPWy" id="header05-f">
 
-    
-
-    
-    
-
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-12 col-lg-12">
-                <div class="d-flex pb-5">
-                    <div class="dot"></div>
-                    <div class="dot dot-right "></div>
-                </div>
-                <h2 class="mbr-section-subtitle mbr-fonts-style mb-3 display-7">Nossos parceiros</h2>
-                <h1 class="mbr-section-title mbr-fonts-style mb-1 display-1">CLIENTS</h1>
-
-                
-                
-                <div class="d-flex pt-5">
-                    <div class="dot"></div>
-                    <div class="dot dot-right "></div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section data-bs-version="5.1" class="clients2 cid-t9orQYQ2A7" id="people02-e">
-    
-    <div class="images-container container">
-        <div class="mbr-section-head">
-            
-
-            
-        </div>
-        <div class="row justify-content-center mt-4">
-            <div class="col-md-3 col-lg-3 col-md-6">
-                <div class="d-flex">
-                    <div class="dot"></div>
-                    <div class="dot dot-right "></div>
-                </div>
-                <div class="card">
-                    <img src="assets/images/1.png" alt="">
-                    <h4 class="mbr-section-subtitle mbr-fonts-style align-center mb-0 mt-3 display-7"><a href="#" class="text-black">Read more</a></h4>
-                </div>
-                <div class="d-flex">
-                    <div class="dot"></div>
-                    <div class="dot dot-right "></div>
-                </div>
-            </div>
-            <div class="col-md-3 col-lg-3 col-md-6">
-                <div class="d-flex">
-                    <div class="dot"></div>
-                    <div class="dot dot-right "></div>
-                </div>
-                <div class="card">
-                    <img src="assets/images/2.png" alt="">
-                    <h4 class="mbr-section-subtitle mbr-fonts-style align-center mb-0 mt-3 display-7"><a href="#" class="text-black">Read more</a></h4>
-                </div>
-                <div class="d-flex">
-                    <div class="dot"></div>
-                    <div class="dot dot-right "></div>
-                </div>
-            </div>
-            <div class="col-md-3 col-lg-3 col-md-6">
-                <div class="d-flex">
-                    <div class="dot"></div>
-                    <div class="dot dot-right "></div>
-                </div>
-                <div class="card">
-                    <img src="assets/images/3.png" alt="">
-                    <h4 class="mbr-section-subtitle mbr-fonts-style align-center mb-0 mt-3 display-7"><a href="#" class="text-black">Read more</a></h4>
-                </div>
-                <div class="d-flex">
-                    <div class="dot"></div>
-                    <div class="dot dot-right "></div>
-                </div>
-            </div>
-            <div class="col-md-3 col-lg-3 col-md-6">
-                <div class="d-flex">
-                    <div class="dot"></div>
-                    <div class="dot dot-right "></div>
-                </div>
-                <div class="card">
-                    <img src="assets/images/4.png" alt="">
-                    <h4 class="mbr-section-subtitle mbr-fonts-style align-center mb-0 mt-3 display-7"><a href="#" class="text-black">Read more</a></h4>
-                </div>
-                <div class="d-flex">
-                    <div class="dot"></div>
-                    <div class="dot dot-right "></div>
-                </div>
-            </div>
-
-        </div>
-    </div>
-</section>
-
-<section data-bs-version="5.1" class="contacts1 cid-t9orAFzMrr" id="contacts01-8">
-    
-
-    
-    
-    <div class="container">
-        <div class="row">
-            <div class="col-12 mb-5 col-lg-9">
-                <h3 class="mbr-section-title mbr-fonts-style align-center mb-0 display-2">
-                    <strong>CONTACTS</strong>
-                </h3>
-                
-            </div>
-        </div>
-        <div class="row">
-            <div class="card col-12 col-md-6 col-lg-3 mb-2">
-                <div class="d-flex">
-                    <div class="dot"></div>
-                    <div class="dot dot-right "></div>
-                </div>
-                <div class="card-wrapper">
-                    <div class="card-box align-center">
-                        <div class="iconfont-wrapper">
-                            <span class="mbr-iconfont mobi-mbri-letter mobi-mbri"></span>
-                        </div>
-                        <h5 class="card-title mbr-fonts-style display-7">
-                            mail@yoursite.com<br>help@yoursite.com</h5>
-                        
-                    </div>
-                </div>
-                <div class="d-flex">
-                    <div class="dot"></div>
-                    <div class="dot dot-right "></div>
-                </div>
-            </div>
-            <div class="card col-12 col-md-6 col-lg-3 mb-2">
-                <div class="d-flex">
-                    <div class="dot"></div>
-                    <div class="dot dot-right "></div>
-                </div>
-                <div class="card-wrapper">
-                    <div class="card-box align-center">
-                        <div class="iconfont-wrapper">
-                            <span class="mbr-iconfont mobi-mbri-phone mobi-mbri"></span>
-                        </div>
-                        <h5 class="card-title mbr-fonts-style display-7">+1(234)567-890<br>+1(234)098-654
-                        </h5>
-                        
-                    </div>
-                </div>
-                <div class="d-flex">
-                    <div class="dot"></div>
-                    <div class="dot dot-right "></div>
-                </div>
-            </div>
-            <div class="card col-12 col-md-6 col-lg-3 mb-2">
-                <div class="d-flex">
-                    <div class="dot"></div>
-                    <div class="dot dot-right "></div>
-                </div>
-                <div class="card-wrapper">
-                    <div class="card-box align-center">
-                        <div class="iconfont-wrapper">
-                            <span class="mbr-iconfont mobi-mbri-map-pin mobi-mbri"></span>
-                        </div>
-                        <h5 class="card-title mbr-fonts-style display-7">Maumee, 2025 <br>Stonecoal Road
-                        </h5>
-                        
-                    </div>
-                </div>
-                <div class="d-flex">
-                    <div class="dot"></div>
-                    <div class="dot dot-right "></div>
-                </div>
-            </div>
-            
-        </div>
-    </div>
-</section>
 
 <section data-bs-version="5.1" class="footer1 cid-uu6n1hlzhV" once="footers" id="footer1-2x">
 

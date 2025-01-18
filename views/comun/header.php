@@ -51,11 +51,11 @@
                 </div>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav nav-dropdown" data-app-modern-menu="true"><li class="nav-item"><a class="nav-link link text-black text-primary display-4" href="index.html">HOME</a></li>
-                    <li class="nav-item"><a class="nav-link link text-black show display-4" href="#" aria-expanded="false">Sobre</a></li>
-                    <li class="nav-item"><a class="nav-link link text-black display-4" href="#">Blog</a>
+                <ul class="navbar-nav nav-dropdown" data-app-modern-menu="true"><li class="nav-item"><a class="nav-link link text-black text-primary display-4" href="../../index">HOME</a></li>
+                    
+                    <li class="nav-item"><a class="nav-link link text-black display-4" href="../cadastro/">Matricula</a>
                     </li>
-                    <li class="nav-item"><a class="nav-link link text-black text-primary display-4" href="views/cadastro/">Cadastro</a>
+                    <li class="nav-item"><a class="nav-link link text-black text-primary display-4" href="../cadastroteacher/">Teahcers</a>
                     </li></ul>
                 
                 <div class="navbar-buttons mbr-section-btn"><a class="btn btn-success display-4" href="../login/">LOGIN<br></a></div>

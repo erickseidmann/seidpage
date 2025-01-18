@@ -1,3 +1,17 @@
+<?php
+// Iniciar a sessão
+session_start();
+
+// Verificar se o professor está logado
+if (!isset($_SESSION['professor_id'])) {
+    header("Location: index.php"); // Redirecionar para o login se não estiver logado
+    exit;
+}
+
+// Recuperar o nome do professor da sessão
+$professor_nome = $_SESSION['professor_nome'];
+?>
+
 <!DOCTYPE html>
 <html  >
 <head>
@@ -9,60 +23,46 @@
   <link rel="shortcut icon" href="assets/images/3-176x176.png" type="image/x-icon">
   <meta name="description" content="">
   
-  
-  <title>porhora</title>
-  <link rel="stylesheet" href="assets/web/assets/mobirise-icons2/mobirise2.css">
-  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.min.css">
-  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-reboot.min.css">
-  <link rel="stylesheet" href="assets/dropdown/css/style.css">
-  <link rel="stylesheet" href="assets/socicon/css/styles.css">
-  <link rel="stylesheet" href="assets/theme/css/style.css">
-  <link rel="stylesheet" href="assets/recaptcha.css">
-  <link rel="preload" href="https://fonts.googleapis.com/css?family=Anybody:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
-  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Anybody:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i&display=swap"></noscript>
-  <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css?v=7FNzvN"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css?v=7FNzvN" type="text/css">
+  <title>Por Hora</title>
+  <script>
+        function calcularValores() {
+    // Obter valores dos campos
+    const valorHora = parseFloat(document.getElementById("valor").value) || 0;
+    const valorDemoMatri = parseFloat(document.getElementById("valordemonstrativamatri").value) || 0;
+    const valorDemoNaoMatri = parseFloat(document.getElementById("valornaomatriculada").value) || 0;
+    
+    const horasCompareceu = parseFloat(document.getElementById("Compareceu").value) || 0;
+    const horasNaoCompareceu = parseFloat(document.getElementById("naocompareceu").value) || 0;
+    const horasReposicao = parseFloat(document.getElementById("reposicao").value) || 0;
+    const horasDemoMatriculada = parseFloat(document.getElementById("demonstrativamatriculada").value) || 0;
+    const horasDemoNaoMatriculada = parseFloat(document.getElementById("demonaomatri").value) || 0;
 
+    // Cálculos
+    const totalCompareceu = horasCompareceu * valorHora;
+    const totalNaoCompareceu = horasNaoCompareceu * valorHora;
+    const totalReposicao = horasReposicao * valorHora;
+    const totalDemoMatriculada = horasDemoMatriculada * valorDemoMatri;
+    const totalDemoNaoMatriculada = horasDemoNaoMatriculada * valorDemoNaoMatri;
+
+    // Exibir resultados individuais
+    document.getElementById("resultadoCompareceu").textContent = `R$ ${totalCompareceu.toFixed(2)}`;
+    document.getElementById("resultadoNaoCompareceu").textContent = `R$ ${totalNaoCompareceu.toFixed(2)}`;
+    document.getElementById("resultadoReposicao").textContent = `R$ ${totalReposicao.toFixed(2)}`;
+    document.getElementById("resultadoDemoMatriculada").textContent = `R$ ${totalDemoMatriculada.toFixed(2)}`;
+    document.getElementById("resultadoDemoNaoMatriculada").textContent = `R$ ${totalDemoNaoMatriculada.toFixed(2)}`;
+
+    // Calcular total geral
+    const totalGeral = totalCompareceu + totalNaoCompareceu + totalReposicao + totalDemoMatriculada + totalDemoNaoMatriculada;
+
+    // Exibir o total geral
+    document.getElementById("valorTotal").textContent = `R$ ${totalGeral.toFixed(2)}`;
+}
+        
+    </script>
   
-  
-  
+  <?php include '../comun/headerteachers.php'; ?>
 </head>
 <body>
-  
-  <section data-bs-version="5.1" class="menu menu1 cid-ux9CEN1f74" once="menu" id="menu01-59">
-    
-    <nav class="navbar navbar-dropdown navbar-fixed-top navbar-expand-lg">
-        <div class="container">
-            <div class="navbar-brand">
-                <span class="navbar-logo">
-                    <a href="#">
-                        <img src="assets/images/3-176x176.png" alt="" style="height: 5.5rem;">
-                    </a>
-                </span>
-                
-            </div>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbarSupportedContent" data-bs-target="#navbarSupportedContent" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <div class="hamburger">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </div>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav nav-dropdown" data-app-modern-menu="true"><li class="nav-item"><a class="nav-link link text-black text-primary display-4" href="index.html">HOME</a></li>
-                    <li class="nav-item"><a class="nav-link link text-black show display-4" href="#" aria-expanded="false">LIVROS</a></li>
-                    <li class="nav-item dropdown"><a class="nav-link link text-black dropdown-toggle display-4" href="#" data-toggle="dropdown-submenu" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">FINANCEIRO</a><div class="dropdown-menu" aria-labelledby="dropdown-856"><a class="text-black dropdown-item display-4" href="#">Por hora</a><a class="text-black show dropdown-item display-4" href="#">POr período</a></div>
-                    </li><li class="nav-item dropdown"><a class="nav-link link text-black dropdown-toggle display-4" href="#" data-toggle="dropdown-submenu" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="true">AGENDA</a><div class="dropdown-menu" aria-labelledby="dropdown-186"><a class="text-black dropdown-item display-4" href="#">HORAS REGISTRADAS<br></a><a class="text-black dropdown-item display-4" href="#">AGENDA DA SEMANA</a></div></li>
-                    <li class="nav-item dropdown"><a class="nav-link link text-black text-primary dropdown-toggle display-4" href="page1.html" data-toggle="dropdown-submenu" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">REGISTROS</a><div class="dropdown-menu" aria-labelledby="dropdown-461"><a class="text-black text-primary dropdown-item display-4" href="page1.html">REGISTRAR AULAS</a><a class="text-black text-primary show dropdown-item display-4" href="page1.html">VER REGISTROS</a></div>
-                    </li></ul>
-                
-                <div class="navbar-buttons mbr-section-btn"><a class="btn btn-success display-4" href="#">LOGIN<br></a></div>
-            </div>
-        </div>
-    </nav>
-</section>
-
 <section data-bs-version="5.1" class="image2 cid-ux9CENKqph" id="image2-5a">
     
     
@@ -74,7 +74,7 @@
         <div class="row align-items-center">
             <div class="col-12 col-lg">
                 <div class="text-wrapper">
-                    <h3 class="mbr-section-title mbr-fonts-style mb-3 display-2">O a quantidade de horas<br>deve ser feito até 1 dia antes.<br></h3>
+                    <h3 class="mbr-section-title mbr-fonts-style mb-3 display-2"><?php echo htmlspecialchars($professor_nome); ?> a quantidade de horas<br>deve ser feito até 1 dia antes.<br></h3>
                     <p class="mbr-text mbr-fonts-style display-7">
                         Caso a quantidade de horas não esteja correto os pagamentos não serão feitos.</p>
                 </div>
@@ -96,7 +96,7 @@
         <div class="row">
             <div class="col-lg-8 mx-auto mbr-form" data-form-type="formoid">
 <!--Formbuilder Form-->
-<form action="https://mobirise.eu/" method="POST" class="mbr-form form-with-styler" data-form-title="Form Name"><input type="hidden" name="email" data-form-email="true" value="k5z0Kqgg2yl/1SGOYcjJN66GUhqlHeOekJ7JklMual1knR4uUG9hrpeHwP+XnZP1HEPr8S+F5tuwpz/1rJDPQRFW7v+itUGx79zLleUOWQ7eBtpJChfJKIGbG0Cfg/H4.jKygjLvFLdRRNBmfr/gxEWlT+WwF32rsDrEH10ul1kP4qofWHbalOMRA8OKFGDUR4X3gYlRAa3H5CD6AijanLcIUNqr5NA9KVPO6DFLc4IqOYh58ZZwFdVnu3O+rHXLG">
+<form action="salvar_registro.php" method="POST" class="mbr-form form-with-styler" data-form-title="Form Name">
 <div class="form-row">
 <div hidden="hidden" data-form-alert="" class="alert alert-success col-12">Thanks for filling out the form!</div>
 <div hidden="hidden" data-form-alert-danger="" class="alert alert-danger col-12">Oops...! some problem!</div>
@@ -109,7 +109,7 @@
 <hr>
 </div>
 <div data-for="professor" class="col-lg-12 col-md-12 col-sm-12 form-group">
-<input type="text" name="professor" placeholder="professor" data-form-field="professor" class="form-control display-7" required="required" value="" id="professor-formbuilder-5j">
+<input type="text" name="professor" class="form-control display-7" readonly="readonly" id="professor-formbuilder-4m" value="<?php echo htmlspecialchars($professor_nome); ?>">
 </div>
 <div data-for="email" class="col-lg-12 col-md-12 col-sm-12 form-group">
 <input type="email" name="email" placeholder="Email" data-form-field="email" class="form-control display-7" value="" id="email-formbuilder-5j">
@@ -144,22 +144,22 @@
 <input type="text" name="infobank" placeholder="Informaçoes pagamento" data-form-field="infobank" required="required" class="form-control display-7" value="" id="infobank-formbuilder-5j">
 </div>
 <div class="col-lg-12 col-md-12 col-sm-12">
-<p class="mbr-fonts-style display-7">Valor por hora</p>
+<p class="mbr-fonts-style display-7" >Valor por hora</p>
 </div>
 <div data-for="valor" class="col-lg-12 col-md-12 col-sm-12 form-group">
-<input type="text" name="valor" placeholder="valor" data-form-field="valor" class="form-control display-7" value="" id="valor-formbuilder-5j">
+<input class="form-control display-7" name="valor"  type="number" id="valor" oninput="calcularValores()" step="0.01"><br>
 </div>
 <div class="col-lg-12 col-md-12 col-sm-12">
 <p class="mbr-fonts-style display-7">Valor por demonstrativa **Matriculada**</p>
 </div>
 <div data-for="valordemonstrativamatri" class="col-lg-12 col-md-12 col-sm-12 form-group">
-<input type="text" name="valordemonstrativamatri" placeholder="valor" data-form-field="valordemonstrativamatri" class="form-control display-7" value="" id="valordemonstrativamatri-formbuilder-5j">
+<input class="form-control display-7" name="valordemonstrativamatri"  type="number" id="valordemonstrativamatri" oninput="calcularValores()" step="0.01"><br>
 </div>
 <div class="col-lg-12 col-md-12 col-sm-12">
-<p class="mbr-fonts-style display-7">Valor por demonstrativa **NÃO matriculada**</p>
+<p  class="mbr-fonts-style display-7">Valor por demonstrativa **NÃO matriculada**</p>
 </div>
 <div data-for="valornaomatriculada" class="col-lg-12 col-md-12 col-sm-12 form-group">
-<input type="text" name="valornaomatriculada" placeholder="valor" data-form-field="valornaomatriculada" class="form-control display-7" value="" id="valornaomatriculada-formbuilder-5j">
+<input class="form-control display-7" name="valornaomatriculada"  type="number" id="valornaomatriculada" oninput="calcularValores()" step="0.01"><br>
 </div>
 <div class="col-lg-12 col-md-12 col-sm-12">
 <hr>
@@ -171,37 +171,37 @@
 <p class="mbr-fonts-style display-7">Compareceu</p>
 </div>
 <div data-for="Compareceu" class="col-lg-12 col-md-12 col-sm-12 form-group">
-<input type="text" name="Compareceu" placeholder="Compareceu" data-form-field="Compareceu" class="form-control display-7" value="" id="Compareceu-formbuilder-5j">
+<input class="form-control display-7" name="Compareceu" type="number" id="Compareceu" oninput="calcularValores()" step="0.01"><br>
 </div>
 <div class="col-lg-12 col-md-12 col-sm-12">
 <p class="mbr-fonts-style display-7">Não Compareceu</p>
 </div>
 <div data-for="naocompareceu" class="col-lg-12 col-md-12 col-sm-12 form-group">
-<input type="text" name="naocompareceu" placeholder="Não Compareceu" data-form-field="naocompareceu" class="form-control display-7" value="" id="naocompareceu-formbuilder-5j">
+<input class="form-control display-7" name="naocompareceu" type="number" id="naocompareceu" oninput="calcularValores()" step="0.01"><br>
 </div>
 <div class="col-lg-12 col-md-12 col-sm-12">
 <p class="mbr-fonts-style display-7">Cancelou</p>
 </div>
 <div data-for="cancelou" class="col-lg-12 col-md-12 col-sm-12 form-group">
-<input type="text" name="cancelou" placeholder="Cancelou" data-form-field="cancelou" class="form-control display-7" value="" id="cancelou-formbuilder-5j">
+<input class="form-control display-7"  type="text" name="cancelou" placeholder="Cancelou" data-form-field="cancelou" class="form-control display-7" value="" id="cancelou-formbuilder-5j">
 </div>
 <div class="col-lg-12 col-md-12 col-sm-12">
 <p class="mbr-fonts-style display-7">Reposição</p>
 </div>
 <div data-for="reposicao" class="col-lg-12 col-md-12 col-sm-12 form-group">
-<input type="text" name="reposicao" placeholder="Reposição" data-form-field="reposicao" class="form-control display-7" value="" id="reposicao-formbuilder-5j">
+<input class="form-control display-7" name="reposicao"  type="number" id="reposicao" oninput="calcularValores()" step="0.01"><br>
 </div>
 <div class="col-lg-12 col-md-12 col-sm-12">
 <p class="mbr-fonts-style display-7">Demonstrativa Matriculada</p>
 </div>
 <div data-for="demonstrativamatriculada" class="col-lg-12 col-md-12 col-sm-12 form-group">
-<input type="text" name="demonstrativamatriculada" placeholder="Demonstrativa Matriculada" data-form-field="demonstrativamatriculada" class="form-control display-7" value="" id="demonstrativamatriculada-formbuilder-5j">
+<input class="form-control display-7" name="demonstrativamatriculada" type="number" id="demonstrativamatriculada" oninput="calcularValores()" step="0.01"><br>
 </div>
 <div class="col-lg-12 col-md-12 col-sm-12">
 <p class="mbr-fonts-style display-7">Demonstrativas *NÃO* matriculado</p>
 </div>
 <div data-for="demonaomatri" class="col-lg-12 col-md-12 col-sm-12 form-group">
-<input type="text" name="demonaomatri" placeholder="Demonstrativa não matriculadas " data-form-field="demonaomatri" class="form-control display-7" value="" id="demonaomatri-formbuilder-5j">
+<input class="form-control display-7" name="demonaomatri" type="number" id="demonaomatri" oninput="calcularValores()" step="0.01"><br>
 </div>
 <div class="col-lg-12 col-md-12 col-sm-12">
 <hr>
@@ -213,7 +213,7 @@
 <p class="mbr-fonts-style display-7">Teve alunos que avançou para próximo livro?&nbsp;</p>
 </div>
 <div data-for="select" class="col-lg-12 col-md-12 col-sm-12 form-group">
-<select name="select" data-form-field="select" class="form-control form-select display-7" id="select-formbuilder-5j">
+<select name="alunoavanco" data-form-field="select" class="form-control form-select display-7" id="alunoavanco">
 <option value="Select">Select</option>
 <option value="Sim">Sim</option>
 <option value="Não">Não</option>
@@ -223,19 +223,19 @@
 <p class="mbr-fonts-style display-7">Escreva abaixo o nome dos alunos o livro onde estava e o livro para o avanço.</p>
 </div>
 <div data-for="nomealunos" class="col-lg-12 col-md-12 col-sm-12 form-group">
-<textarea name="nomealunos" placeholder="Nome dos alunos" data-form-field="nomealunos" class="form-control display-7" id="nomealunos-formbuilder-5j"></textarea>
+<textarea name="nomealunosavanco" placeholder="Nome dos alunos" data-form-field="nomealunos" class="form-control display-7" id="nomealunosavanco"></textarea>
 </div>
 <div class="col-lg-12 col-md-12 col-sm-12">
 <p class="mbr-fonts-style display-7">Se voce faltou algum dia escreva os dias.</p>
 </div>
 <div data-for="dias" class="col-lg-12 col-md-12 col-sm-12 form-group">
-<input type="text" name="dias" placeholder="Datas" data-form-field="dias" class="form-control display-7" value="" id="dias-formbuilder-5j">
+<input type="text" name="diasfalta" placeholder="Datas" data-form-field="dias" class="form-control display-7" value="" id="diasfalta">
 </div>
 <div class="col-lg-12 col-md-12 col-sm-12">
 <p class="mbr-fonts-style display-7">Preencheu 100% dos registros?</p>
 </div>
 <div data-for="select1" class="col-lg-12 col-md-12 col-sm-12 form-group">
-<select name="select1" data-form-field="select1" class="form-control form-select display-7" id="select1-formbuilder-5j">
+<select name="registroscompleto" data-form-field="select1" class="form-control form-select display-7" id="registroscompleto">
 <option value="Select">Select</option>
 <option value="Sim ">Sim </option>
 <option value="Não">Não</option>
@@ -245,7 +245,7 @@
 <p class="mbr-fonts-style display-7">Teve 100% das tarefas corrigidas e enviadas no grupo?</p>
 </div>
 <div data-for="select3" class="col-lg-12 col-md-12 col-sm-12 form-group">
-<select name="select3" data-form-field="select3" class="form-control form-select display-7" id="select3-formbuilder-5j">
+<select name="hwcorrigidos" data-form-field="select3" class="form-control form-select display-7" id="hwcorrigidos">
 <option value="Select">Select</option>
 <option value="Sim">Sim</option>
 <option value="Não">Não</option>
@@ -255,7 +255,7 @@
 <p class="mbr-fonts-style display-7">Teve a media de 3 trabalhos mensais?</p>
 </div>
 <div data-for="select2" class="col-lg-12 col-md-12 col-sm-12 form-group">
-<select name="select2" data-form-field="select2" class="form-control form-select display-7" id="select2-formbuilder-5j">
+<select name="trabalhomensal" data-form-field="select2" class="form-control form-select display-7" id="trabalhomensal">
 <option value="Select">Select</option>
 <option value="Sim">Sim</option>
 <option value="Não">Não</option>
@@ -265,35 +265,24 @@
 <p class="mbr-fonts-style display-7">Digite o nome dos alunos que fizeram os trabalhos</p>
 </div>
 <div data-for="nomealunostrabalho" class="col-lg-12 col-md-12 col-sm-12 form-group">
-<textarea name="nomealunostrabalho" placeholder="Nome dos Alunos" data-form-field="nomealunostrabalho" class="form-control display-7" id="nomealunostrabalho-formbuilder-5j"></textarea>
+<textarea name="nomealunostrabalho" placeholder="Nome dos Alunos" data-form-field="nomealunostrabalho" class="form-control display-7" id="nomealunostrabalho"></textarea>
 </div>
 <div class="col-lg-12 col-md-12 col-sm-12">
 <p class="mbr-fonts-style display-7">Teve Dois alunos ou mais que tiraram print e marcaram a escola no instagram ou Linkedin?</p>
 </div>
 <div data-for="numeroinsta" class="col-lg-12 col-md-12 col-sm-12 form-group">
-<input type="text" name="numeroinsta" placeholder="Numero de postagens" data-form-field="numeroinsta" class="form-control display-7" value="" id="numeroinsta-formbuilder-5j">
+<input type="text" name="numeroinsta" placeholder="Numero de postagens" data-form-field="numeroinsta" class="form-control display-7" value="" id="numeroinsta">
 </div>
 <div class="col-lg-12 col-md-12 col-sm-12">
 <p class="mbr-fonts-style display-7">Nome dos alunos</p>
 </div>
 <div data-for="alunosinsta" class="col-lg-12 col-md-12 col-sm-12 form-group">
-<input type="text" name="alunosinsta" placeholder="Nome dos alunos" data-form-field="alunosinsta" class="form-control display-7" value="" id="alunosinsta-formbuilder-5j">
+<input type="text" name="alunosinsta" placeholder="Nome dos alunos" data-form-field="alunosinsta" class="form-control display-7" value="" id="alunosinsta">
 </div>
-<div class="col-auto">
-<button type="submit" class="w-100 w-100 w-100 w-100 w-100 w-100 w-100 btn btn-primary display-7">Registrar</button>
-</div>
-</div>
-</form><!--Formbuilder Form-->
-</div>
-        </div>
-    </div>
-</section>
 
 <section data-bs-version="5.1" class="list1 stackm5 cid-uxv56ewDmg" id="list01-5q">
+  
 
-    
-
-    
     
 
     <div class="container">
@@ -305,7 +294,10 @@
             </div>
             <div class="col-12 col-lg-4">
 
-                <p class="mbr-text align-left mbr-fonts-style display-5">R$00,00</p>
+            <p class="mbr-text align-left mbr-fonts-style display-5" name="resultadoCompareceu" id="resultadoCompareceu"> <span name="resultadoCompareceu" id="resultadoCompareceu">R$ 0.00</span></p>
+            <p>Total Compareceu: <span name="resultadoCompareceu" id="resultadoCompareceu">R$ 0.00</span></p>
+            
+           
             </div>
             <div class="col-12">
                 <div class="line"></div>
@@ -322,7 +314,8 @@
             </div>
             <div class="col-12 col-lg-4">
 
-                <p class="mbr-text align-left mbr-fonts-style display-5">R$00,00</p>
+                <p class="mbr-text align-left mbr-fonts-style display-5" name="resultadoNaoCompareceu" id="resultadoNaoCompareceu">R$00,00</p>
+                <input type="hidden" name="resultadoNaoCompareceu" id="hiddenResultadoCompareceu" />
             </div>
             <div class="col-12">
                 <div class="line"></div>
@@ -339,7 +332,8 @@
             </div>
             <div class="col-12 col-lg-4">
 
-                <p class="mbr-text align-left mbr-fonts-style display-5">R$00,00</p>
+                <p class="mbr-text align-left mbr-fonts-style display-5" name="resultadoReposicao" id="resultadoReposicao">R$00,00</p>
+                <input type="hidden" name="resultadoReposicao" id="hiddenresultadoReposicao" />
             </div>
             <div class="col-12">
                 <div class="line"></div>
@@ -355,7 +349,8 @@
             </div>
             <div class="col-12 col-lg-4">
 
-                <p class="mbr-text align-left mbr-fonts-style display-5">R$00,00 </p>
+                <p class="mbr-text align-left mbr-fonts-style display-5" name="resultadoDemoMatriculada" id="resultadoDemoMatriculada">R$00,00 </p>
+                <input type="hidden" name="resultadoDemoMatriculada" id="hiddenresultadoDemoMatriculada" />
             </div>
             <div class="col-12">
                 <div class="line"></div>
@@ -367,23 +362,57 @@
 
             <div class="col-12 col-lg-5 my-auto">
 
-                <h2 class="mbr-section-subtitle align-left mbr-fonts-style mb-3 display-2">Demonstra **NÃo** Matri.</h2>
+                <h2 class="mbr-section-subtitle align-left mbr-fonts-style mb-3 display-2" >Demonstra **NÃo** Matri.</h2>
             </div>
             <div class="col-12 col-lg-4">
 
-                <p class="mbr-text align-left mbr-fonts-style display-5">R$00,00
+                <p class="mbr-text align-left mbr-fonts-style display-5" id="resultadoDemoNaoMatriculada">R$00,00
                 </p>
+                <input type="hidden" name="resultadoDemoNaoMatriculada" id="hiddenresultadoDemoNaoMatriculada" />
             </div>
             <div class="col-12">
                 <div class="line"></div>
             </div>
-<button type="button" class="btn btn-primary btn-lg btn-block">Confirmo todas as informações e valores acima.</button>
+
 
         </div>
 
+        <div class="row">
 
+            <div class="col-12 col-lg-5 my-auto">
+
+                <h2 class="mbr-section-subtitle align-left mbr-fonts-style mb-3 display-2">Valor total a receber:</h2>
+            </div>
+            <div class="col-12 col-lg-4">
+
+                <p class="mbr-text align-left mbr-fonts-style display-5" id="valorTotal">R$00,00 </p>
+                <input type="hidden" name="valorTotal" id="hiddenvalorTotal" />
+            </div>
+            <div class="col-12">
+                <div class="line"></div>
+            </div>
+            
+
+        </div>
     </div>
 </section>
+
+
+<div class="col-auto">
+
+<br>
+<br>
+
+<button type="submit" class="w-100 w-100 w-100 w-100 w-100 w-100 w-100 btn btn-primary display-7">Registrar</button>
+</div>
+</div>
+</form><!--Formbuilder Form-->
+</div>
+        </div>
+    </div>
+</section>
+
+
 
 <section data-bs-version="5.1" class="content02 politicsm4_content02 cid-uxv7orDKW4" id="content02-5s">
 
@@ -403,18 +432,7 @@
 					<div class="line"></div>
 				</div>
 				<p class="mbr-text py-2 mbr-fonts-style display-7">
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sed sollicitudin felis. Vestibulum
-					vestibulum leo sed elit inter dum malesuada. Sed sed scelerisque diam, quis finibus felis. Morbi in
-					ante neque. Proin nec dui orci. In id risus a elit pretium commodo. In sollicitudin purus id orci
-					lacinia rutrum. Vestibulum faucibus viverra nulla, et placerat ipsum fermentum non. Suspendisse
-					laoreet venenatis ex nec iaculis. Cras in molestie turpis. Etiam nisi nunc, viverra vitae euismod
-					nec, convallis et arcu. Lorem ipsum dolor sit amet.<br><br>Nullam mattis cursus nisl, ut euismod
-					elit ornare quis. Pellentesque in eros sagittis, ultrices libero et, auctor diam. Vivamus at felis a
-					eros rhoncus luctus id quis leo. Curabitur cursus ex at magna ultricies luctus. Nulla in est non
-					felis ultrices malesuada vitae sit amet leo. Mauris faucibus ultricies velit laoreet pharetra. Fusce
-					sit amet consequat mauris, quis imperdiet urna. Cur abitur tellus lectus, posuere ac placerat eu,
-					vehicula ut massa. Praesent est elit, lobortis nec efficitur quis, ultricies placerat odio. In ac
-					facilisis purus, venenatis consectetur ligula. Praesent felis libero, iaculis eget<br></p>
+					
 				<img src="assets/images/signature.png" alt="">
 			</div>
 		</div>

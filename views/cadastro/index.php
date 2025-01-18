@@ -137,7 +137,7 @@
 <p class="mbr-fonts-style display-7">Valor combinado&nbsp;</p>
 </div>
 <div data-for="number2" class="col-lg-12 col-md-12 col-sm-12 form-group">
-<input type="number" name="number2" placeholder="Valor" max="100" min="0" step="1" data-form-field="number2" required="required" class="form-control display-7" value="" id="number2-formbuilder-45">
+<input type="number" name="number2" placeholder="Valor" max="100000" min="0" step="1" data-form-field="number2" required="required" class="form-control display-7" value="" id="number2-formbuilder-45">
 </div>
 <div class="col-lg-12 col-md-12 col-sm-12">
 <p class="mbr-fonts-style display-7">Método de pagamento</p>

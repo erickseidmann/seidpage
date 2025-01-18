@@ -51,7 +51,7 @@
                 </div>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav nav-dropdown" data-app-modern-menu="true"><li class="nav-item"><a class="nav-link link text-black text-primary display-4" href="index.html">HOME</a></li>
+                <ul class="navbar-nav nav-dropdown" data-app-modern-menu="true"><li class="nav-item"><a class="nav-link link text-black text-primary display-4" href="../../index">HOME</a></li>
                     <li class="nav-item"><a class="nav-link link text-black show display-4" href="#" aria-expanded="false">ABOUT</a></li>
                     <li class="nav-item"><a class="nav-link link text-black display-4" href="#">FEATURES</a>
                     </li>
