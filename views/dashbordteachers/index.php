@@ -84,7 +84,7 @@ $professor_nome = $_SESSION['professor_nome'];
 							<div id="collapse1_16" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion" data-bs-parent="#bootstrap-accordion_16">
 								<div class="panel-body">
 									<p class="mbr-fonts-style panel-text display-7">
-										Sem anúncios / no&nbsp;Announcements<br>
+									It is with great enthusiasm that we welcome you to the Seidmann Institute! We are thrilled to have you with us and hope your experience here will be enriching and transformative. Our commitment is to provide a dynamic, innovative, and professional learning environment where you will have access to high-quality materials and ongoing support for your development. We believe in the power of education to foster meaningful and lasting change, and we are confident that, together, we can achieve great results. Welcome, and count on us every step of the way!<br>
 									</p>
 								</div>
 							</div>
@@ -95,17 +95,42 @@ $professor_nome = $_SESSION['professor_nome'];
 									<div class="title-wrapper">
 										<span class="panel-number-edit mbr-semibold mbr-fonts-style mb-0 display-7">
 											02<br></span>
-										<h6 class="panel-title-edit mbr-semibold mbr-fonts-style mb-0 display-5">What
-											services do you offer?</h6>
+										<h6 class="panel-title-edit mbr-semibold mbr-fonts-style mb-0 display-5"> Rules / English </h6>
 									</div>
 									<span class="sign mbr-iconfont mobi-mbri-arrow-down"></span>
 								</a>
 							</div>
 							<div id="collapse2_16" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion" data-bs-parent="#bootstrap-accordion_16">
 								<div class="panel-body">
-									<p class="mbr-fonts-style panel-text display-7">- Development of the event
-										concept<br>-&nbsp;&nbsp;Invitation of speakers and guests<br>-&nbsp;Development
-										of a unique design<br>-&nbsp;Full support</p>
+									<p class="mbr-fonts-style panel-text display-7">
+										1.	Document all activities performed in a detailed and accurate manner.
+										<br>
+										2.	Participate in all training sessions with the Class Management team to ensure continuous updates.
+										<br>
+										3.	Immediately report any issues or concerns to the Class Management team for effective resolution.
+										<br>
+										4.	Ensure a stable internet connection, sending a screenshot if necessary, with a connection test performed at: https://www.minhaconexao.com.br/.
+										<br>
+										5.	Always use appropriate cameras and headphones (or ensure the use of quality speakers).
+										<br>
+										6.	Class environments must be clean, organized, and quiet, providing a conducive space for learning.
+										<br>
+										7.	Attire: Adopt formal clothing to convey professionalism and commitment to students.
+										<br>
+										8.	Be punctual, regardless of occasional delays from students. Report frequent delays to the Class Management team for monitoring.
+										<br>
+										9.	Do not promote unrelated services or activities during classes.
+										<br>
+										10.	Immediately report any issues to the Class Management team. Failure to do so may result in a deduction from the agreed payment.
+										<br>
+										11.	Class cancellations: Students may cancel classes up to one hour before the scheduled time. The Class Management team will reschedule and confirm the new time.
+										<br>
+										12.	For class cancellations, the provider must notify 30 days in advance. Classes not canceled within the stipulated timeframe will be deducted from the final payment.
+										<br>
+										13.	Attention: Schedules are not fixed and may change weekly. Providers must review schedules daily to ensure accuracy.
+										<br>
+										14.	Payment will always be made by the 5th business day of the month upon delivery of records.
+									</p>
 								</div>
 							</div>
 						</div>
@@ -115,16 +140,43 @@ $professor_nome = $_SESSION['professor_nome'];
 									<div class="title-wrapper">
 										<span class="panel-number-edit mbr-semibold mbr-fonts-style mb-0 display-7">
 											03<br></span>
-										<h6 class="panel-title-edit mbr-semibold mbr-fonts-style mb-0 display-5">What
-											events has your company held?</h6>
+										<h6 class="panel-title-edit mbr-semibold mbr-fonts-style mb-0 display-5"> Rules / Português </h6>
 									</div>
 									<span class="sign mbr-iconfont mobi-mbri-arrow-down"></span>
 								</a>
 							</div>
 							<div id="collapse3_16" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion" data-bs-parent="#bootstrap-accordion_16">
 								<div class="panel-body">
-									<p class="mbr-fonts-style panel-text display-7">Our company organizes events in the fields of
-										IT, engineering, construction, medicine.</p>
+									<p class="mbr-fonts-style panel-text display-7">
+									1.	Registrar todas as atividades realizadas de maneira detalhada e precisa.
+									<br>
+									2.	Participar de todas as sessões de treinamento com a Gestão de Aulas, garantindo a atualização contínua.
+									<br>
+									3.	Relatar imediatamente quaisquer problemas ou dúvidas à Gestão de Aulas para resolução eficaz.
+									<br>
+									4.	Garantir uma conexão de internet estável, enviando uma captura de tela, se necessário, com um teste de conexão realizado no site: https://www.minhaconexao.com.br/
+									<br>
+									5.	Utilizar sempre câmera e fones de ouvido adequados (ou garantir o uso de alto-falantes de qualidade).
+									<br>
+									6.	Os ambientes de aula devem ser limpos, organizados e silenciosos, proporcionando um espaço propício ao aprendizado.
+									<br>
+									7.	Vestimenta: Adotar vestuário formal para transmitir profissionalismo e compromisso com os alunos.
+									<br>
+									8.	Ser pontual, independentemente de eventuais atrasos dos alunos. Relatar atrasos frequentes à Gestão de Aulas para acompanhamento.
+									<br>
+									9.	Não promover serviços ou atividades não relacionadas durante as aulas.
+									<br>
+									10.	Reportar imediatamente quaisquer problemas à Gestão de Aulas. Caso contrário, poderá haver desconto no valor acordado.
+									<br>
+									11.	Cancelamento de aulas: Os alunos podem cancelar aulas até uma hora antes do horário agendado. A Direção de Aulas reagendará e confirmará o novo horário.
+									<br>
+									12.	Para o cancelamento de aulas, o prestador deve avisar com ***30 dias de antecedência****. Aulas não canceladas dentro do prazo estipulado serão descontadas do valor final.
+									<br>
+									13.	Atenção: Os horários não são fixos e podem ser alterados semanalmente. prestadores devem revisar os horários diariamente para garantir precisão.
+									<br>
+									14.	O pagamento será efetuado sempre até o 5º dia útil do mês mediante a entrega dos registros.
+							
+									</p>
 								</div>
 							</div>
 						</div>
@@ -134,8 +186,7 @@ $professor_nome = $_SESSION['professor_nome'];
 									<div class="title-wrapper">
 										<span class="panel-number-edit mbr-semibold mbr-fonts-style mb-0 display-7">
 											04<br></span>
-										<h6 class="panel-title-edit mbr-semibold mbr-fonts-style mb-0 display-5">Can you
-											organize a small event for 10-20 people?</h6>
+										<h6 class="panel-title-edit mbr-semibold mbr-fonts-style mb-0 display-5">Rules / Español</h6>
 									</div>
 									<span class="sign mbr-iconfont mobi-mbri-arrow-down"></span>
 								</a>
@@ -143,55 +194,40 @@ $professor_nome = $_SESSION['professor_nome'];
 							<div id="collapse4_16" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion" data-bs-parent="#bootstrap-accordion_16">
 								<div class="panel-body">
 									<p class="mbr-fonts-style panel-text display-7">
-										Yes, our company can organize corporate events for a small company.
+									1.	Registrar todas las actividades realizadas de manera detallada y precisa.
+									<br>
+									2.	Participar en todas las sesiones de capacitación con la Gestión de Aulas, garantizando la actualización continua.
+									<br>
+									3.	Reportar inmediatamente cualquier problema o duda a la Gestión de Aulas para una resolución efectiva.
+									<br>
+									4.	Asegurar una conexión a Internet estable, enviando una captura de pantalla, si es necesario, con una prueba de conexión realizada en el sitio: https://www.minhaconexao.com.br/
+									<br>
+									5.	Utilizar siempre cámara y auriculares adecuados (o garantizar el uso de altavoces de calidad).
+									<br>
+									6.	Los ambientes de clase deben estar limpios, organizados y silenciosos, proporcionando un espacio propicio para el aprendizaje.
+									<br>
+									7.	Vestimenta: Adoptar vestimenta formal para transmitir profesionalismo y compromiso con los alumnos.
+									<br>
+									8.	Ser puntual, independientemente de los posibles retrasos de los alumnos. Reportar retrasos frecuentes a la Gestión de Aulas para seguimiento.
+									<br>
+									9.	No promover otros servicios o actividades no relacionadas durante las clases.
+									<br>
+									10.	Reportar inmediatamente cualquier problema a la Gestión de Aulas. De lo contrario, se podrá aplicar un descuento sobre el valor acordado.
+									<br>
+									11.	Cancelación de clases: Los alumnos pueden cancelar clases hasta una hora antes del horario programado. La Dirección de Aulas reagendará y confirmará el nuevo horario.
+									<br>
+									12.	Para cancelar una clase, el proveedor debe avisar con 30 días de antelación. Las clases no canceladas dentro del plazo estipulado serán descontadas del valor final.
+									<br>
+									13.	Atención: Los horarios no son fijos y pueden cambiar semanalmente. Los proveedores deben revisar los horarios diariamente para garantizar su precisión.
+									<br>
+									14.	El pago se efectuará siempre hasta el 5º día hábil del mes, mediante la entrega de los registros.
+
 									</p>
 								</div>
 							</div>
 						</div>
-						<div class="card">
-							<div class="card-header" role="tab" id="headingOne">
-								<a role="button" class="panel-title collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-core="" href="#collapse5_16" aria-expanded="false" aria-controls="collapse5">
-									<div class="title-wrapper">
-										<span class="panel-number-edit mbr-semibold mbr-fonts-style mb-0 display-7">
-											05<br></span>
-										<h6 class="panel-title-edit mbr-semibold mbr-fonts-style mb-0 display-5">How
-											quickly will the event be organized?<br></h6>
-									</div>
-									<span class="sign mbr-iconfont mobi-mbri-arrow-down"></span>
-								</a>
-							</div>
-							<div id="collapse5_16" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion" data-bs-parent="#bootstrap-accordion_16">
-								<div class="panel-body">
-									<p class="mbr-fonts-style panel-text display-7">Organization time depends on many factors:<br>
-										<br>- venues
-										<br>- design requirements
-										<br>- number of people<br>
-										<br>We recommend planning your event in advance, several months before the
-										desired date.
-									</p>
-								</div>
-							</div>
-						</div>
-						<div class="card">
-							<div class="card-header" role="tab" id="headingOne">
-								<a role="button" class="panel-title collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-core="" href="#collapse6_16" aria-expanded="false" aria-controls="collapse6">
-									<div class="title-wrapper">
-										<span class="panel-number-edit mbr-semibold mbr-fonts-style mb-0 display-7">
-											06<br></span>
-										<h6 class="panel-title-edit mbr-semibold mbr-fonts-style mb-0 display-5">How much
-											do your services cost?<br></h6>
-									</div>
-									<span class="sign mbr-iconfont mobi-mbri-arrow-down"></span>
-								</a>
-							</div>
-							<div id="collapse6_16" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion" data-bs-parent="#bootstrap-accordion_16">
-								<div class="panel-body">
-									<p class="mbr-fonts-style panel-text display-7">The cost of our company’s services depends on
-										the complexity of the project. <br>In order to make preliminary calculations,
-										you need to contact our managers and discuss all the details.</p>
-								</div>
-							</div>
-						</div>
+
+						
 					</div>
 				</div>
 			</div>

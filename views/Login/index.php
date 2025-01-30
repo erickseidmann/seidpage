@@ -1,10 +1,6 @@
 <?php
 // Configuração do banco de dados
-$servername = "localhost"; // ou 127.0.0.1
-$username = "root"; // Nome de usuário do MySQL
-$password = ""; // Senha do MySQL (deixe vazio se não houver senha)
-$dbname = "seidmann_institute"; // Nome do banco de dados
-
+include '../comun/conexao.php'; 
 try {
     // Conexão com o banco de dados
     $conn = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);

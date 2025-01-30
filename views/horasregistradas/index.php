@@ -16,9 +16,9 @@ $mensagem = "Nenhuma hora encontrada";
 // Array para armazenar horas por status
 $horas_por_status = [
     'Compareceu' => 0,
-    'Não Compareceu' => 0,
+    'Nao compareceu' => 0,
     'Cancelou' => 0,
-    'Reposição' => 0,
+    'Reposicao' => 0,
     'Demonstrativa' => 0,
     'Extra' => 0
 ];

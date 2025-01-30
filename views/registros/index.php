@@ -16,7 +16,7 @@ $professor_nome = $_SESSION['professor_nome'];
 include '../comun/conexao.php';
 
 // Definir o número de registros por página
-$registros_por_pagina = 30;
+$registros_por_pagina = isset($_GET['registros']) ? (int)$_GET['registros'] : 20;
 
 // Obter o número da página atual
 $pagina_atual = isset($_GET['pagina']) ? (int)$_GET['pagina'] : 1;

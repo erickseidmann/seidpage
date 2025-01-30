@@ -29,49 +29,53 @@ $descricao_homework = $_POST['textarea']; // Descrição do homework
 $mensagem_pais_alunos = $_POST['message']; // Mensagem para pais/alunos
 $mensagem_professores = $_POST['textarea1']; // Mensagem para professores
 
-// Loop para capturar dados de cada aluno
+// Concatenar todos os nomes dos alunos em uma única string
+$nomes_alunos = '';
 for ($i = 1; $i <= 5; $i++) {
     $nome_aluno = $_POST["nome_aluno$i"] ?? null;
-    $status_aluno = $_POST["status_aluno$i"] ?? null;
 
-    // Verifica se o aluno tem nome e status preenchidos
-    if (!empty($nome_aluno) && !empty($status_aluno)) {
-        // Query de inserção
-        $stmt = $conn->prepare("INSERT INTO registro_aulas_grupo 
-        (professor_nome, aluno_nome, status_aluno, data_aula, hora_aula, tempo_aula, livro, pagina, temafree, free_talk, ultima_atividade, homework, old_homework, new_homework, descricao_homework, mensagem_pais_alunos, mensagem_professores, created_at) 
-        VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, NOW())");
-
-        // Vinculação dos parâmetros
-        $stmt->bind_param("sssssssssssssssss", 
-            $professor_nome, 
-            $nome_aluno, 
-            $status_aluno, 
-            $data_aula, 
-            $hora_aula, 
-            $tempo_aula, 
-            $livro, 
-            $pagina,
-            $temafree,
-            $free_talk, 
-            $ultima_atividade, 
-            $homework, 
-            $old_homework, 
-            $new_homework, 
-            $descricao_homework, 
-            $mensagem_pais_alunos, 
-            $mensagem_professores
-        );
-
-        // Executar e verificar sucesso
-        if ($stmt->execute()) {
-            echo "<script>
-                alert('Registro salvo com sucesso!');
-                window.location.href = 'index';
-              </script>";
-        } else {
-            echo "Erro ao salvar registro: " . $stmt->error . "<br>";
-        }
+    // Adicionar o nome do aluno à string, separado por vírgula
+    if (!empty($nome_aluno)) {
+        $nomes_alunos .= $nome_aluno . ', ';
     }
+}
+
+// Remover a última vírgula e espaço extras
+$nomes_alunos = rtrim($nomes_alunos, ', ');
+
+// Query de inserção
+$stmt = $conn->prepare("INSERT INTO registro_aulas_grupo 
+(professor_nome, aluno_nome, data_aula, hora_aula, tempo_aula, livro, pagina, temafree, free_talk, ultima_atividade, homework, old_homework, new_homework, descricao_homework, mensagem_pais_alunos, mensagem_professores, created_at) 
+VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, NOW())");
+
+// Vinculação dos parâmetros
+$stmt->bind_param("ssssssssssssssss", 
+    $professor_nome, 
+    $nomes_alunos, 
+    $data_aula, 
+    $hora_aula, 
+    $tempo_aula, 
+    $livro, 
+    $pagina, 
+    $temafree, 
+    $free_talk, 
+    $ultima_atividade, 
+    $homework, 
+    $old_homework, 
+    $new_homework, 
+    $descricao_homework, 
+    $mensagem_pais_alunos, 
+    $mensagem_professores
+);
+
+// Executar e verificar sucesso
+if ($stmt->execute()) {
+    echo "<script>
+        alert('Registro salvo com sucesso!');
+        window.location.href = 'index';
+      </script>";
+} else {
+    echo "Erro ao salvar registro: " . $stmt->error . "<br>";
 }
 
 // Fechar conexão
