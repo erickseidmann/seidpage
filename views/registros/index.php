@@ -138,7 +138,9 @@ td.limitar-texto.expandido {
                                 <table class="table table-bordered table-striped" id="studentTable">
                                     <thead class="table-dark">
                                         <tr>
+                                            
                                             <th>ID</th>
+                                            <th>Ações</th>
                                             <th><input type="text" placeholder="Nome do Aluno"></th>
                                             <th><input type="text" placeholder="Professor"></th>
                                             <th><input type="text" placeholder="Status"></th>
@@ -159,7 +161,12 @@ td.limitar-texto.expandido {
                                         <?php if ($result->num_rows > 0): ?>
                                             <?php while ($row = $result->fetch_assoc()): ?>
                                                 <tr>
+
                                                     <td><?php echo $row['id']; ?></td>
+                                                    <td>  <button class="btn btn-danger btn-sm delete-btn" data-id="<?php echo $row['id']; ?>">
+                                                            X
+                                                        </button>
+                                                    </td>
                                                     <td><?php echo htmlspecialchars($row['aluno_nome']); ?></td>
                                                     <td><?php echo htmlspecialchars($row['professor_nome']); ?></td>
                                                     <td><?php echo htmlspecialchars($row['status_aula']); ?></td>
@@ -288,6 +295,7 @@ td.limitar-texto.expandido {
   <script src="assets/theme/js/script.js"></script>
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
+
   
   
  <script>
@@ -339,7 +347,23 @@ $(document).ready(function() {
         });
     });
 
+$(document).ready(function(){
+        $(".delete-btn").click(function(){
+            if(confirm("Tem certeza que deseja excluir este registro?")) {
+                let id = $(this).data("id");
 
+                $.ajax({
+                    url: "excluir_registro.php",
+                    type: "POST",
+                    data: { id: id },
+                    success: function(response) {
+                        alert(response);
+                        location.reload(); // Recarregar a página
+                    }
+                });
+            }
+        });
+    });
 
  </script> 
   
