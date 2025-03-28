@@ -1,16 +1,13 @@
 <?php
 session_start();
 
-// Verificar se o professor está logado
 if (!isset($_SESSION['professor_id'])) {
     header("Location: index.php");
     exit;
 }
 
-// Conexão com o banco de dados
 include '../comun/conexao.php';
 
-// Dados do formulário
 $professor_nome = $_SESSION['professor_nome'];
 $data_aula = $_POST['date'];
 $hora_aula = $_POST['time'];
@@ -21,35 +18,37 @@ $temafree = $_POST['temafree'];
 $free_talk = $_POST['free_talk'];
 $ultima_atividade = $_POST['text'];
 
-// Dados do homework
-$homework = $_POST['homework'] ?? null; // Garantir valor nullável
-$old_homework = $_POST['oldhomework']; // "Sim", "Não", "Incompleto"
-$new_homework = $_POST['newhomework']; // "Sim", "Não", "não se aplica"
-$descricao_homework = $_POST['textarea']; // Descrição do homework
-$mensagem_pais_alunos = $_POST['message']; // Mensagem para pais/alunos
-$mensagem_professores = $_POST['textarea1']; // Mensagem para professores
+$homework = $_POST['homework'] ?? null;
+$old_homework = $_POST['oldhomework'];
+$new_homework = $_POST['newhomework'];
+$descricao_homework = $_POST['textarea'];
+$mensagem_pais_alunos = $_POST['message'];
+$mensagem_professores = $_POST['textarea1'];
 
-// Concatenar todos os nomes dos alunos em uma única string
+// Concatenar nomes e status dos alunos
 $nomes_alunos = '';
-for ($i = 1; $i <= 5; $i++) {
-    $nome_aluno = $_POST["nome_aluno$i"] ?? null;
+$status_alunos = '';
 
-    // Adicionar o nome do aluno à string, separado por vírgula
+for ($i = 1; $i <= 5; $i++) {
+    $nome_aluno = $_POST["nome_aluno$i"] ?? '';
+    $status_aluno = $_POST["status_aluno$i"] ?? '';
+
     if (!empty($nome_aluno)) {
         $nomes_alunos .= $nome_aluno . ', ';
+        $status_alunos .= $status_aluno . ', ';
     }
 }
 
-// Remover a última vírgula e espaço extras
+// Remover a vírgula e espaço finais
 $nomes_alunos = rtrim($nomes_alunos, ', ');
+$status_alunos = rtrim($status_alunos, ', ');
 
-// Query de inserção
+// Preparar a query
 $stmt = $conn->prepare("INSERT INTO registro_aulas_grupo 
-(professor_nome, aluno_nome, data_aula, hora_aula, tempo_aula, livro, pagina, temafree, free_talk, ultima_atividade, homework, old_homework, new_homework, descricao_homework, mensagem_pais_alunos, mensagem_professores, created_at) 
-VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, NOW())");
+(professor_nome, aluno_nome, data_aula, hora_aula, tempo_aula, livro, pagina, temafree, free_talk, ultima_atividade, homework, old_homework, new_homework, descricao_homework, mensagem_pais_alunos, mensagem_professores, status_aluno, created_at) 
+VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, NOW())");
 
-// Vinculação dos parâmetros
-$stmt->bind_param("ssssssssssssssss", 
+$stmt->bind_param("sssssssssssssssss", 
     $professor_nome, 
     $nomes_alunos, 
     $data_aula, 
@@ -65,20 +64,19 @@ $stmt->bind_param("ssssssssssssssss",
     $new_homework, 
     $descricao_homework, 
     $mensagem_pais_alunos, 
-    $mensagem_professores
+    $mensagem_professores,
+    $status_alunos
 );
 
-// Executar e verificar sucesso
 if ($stmt->execute()) {
     echo "<script>
         alert('Registro salvo com sucesso!');
-        window.location.href = 'index';
+        window.location.href = 'index.php';
       </script>";
 } else {
     echo "Erro ao salvar registro: " . $stmt->error . "<br>";
 }
 
-// Fechar conexão
 $stmt->close();
 $conn->close();
 ?>
